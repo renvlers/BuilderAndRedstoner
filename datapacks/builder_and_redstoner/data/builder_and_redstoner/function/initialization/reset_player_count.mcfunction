@@ -1,0 +1,1 @@
+scoreboard players set #online player_count 0
