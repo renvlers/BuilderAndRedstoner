@@ -21,3 +21,52 @@ scoreboard players reset * ready
 
 scoreboard objectives add right_check minecraft.used:minecraft.warped_fungus_on_a_stick
 scoreboard players reset * right_check
+
+scoreboard objectives add lobby_sidebar dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar
+
+scoreboard objectives add lobby_sidebar_red dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_red
+
+scoreboard objectives add lobby_sidebar_orange dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_orange
+
+scoreboard objectives add lobby_sidebar_yellow dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_yellow
+
+scoreboard objectives add lobby_sidebar_green dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_green
+
+scoreboard objectives add lobby_sidebar_blue dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_blue
+
+scoreboard objectives add lobby_sidebar_purple dummy { \
+    text: "红建工坊", \
+    color: "#CCFF99", \
+    bold: true \
+}
+scoreboard players reset * lobby_sidebar_purple
