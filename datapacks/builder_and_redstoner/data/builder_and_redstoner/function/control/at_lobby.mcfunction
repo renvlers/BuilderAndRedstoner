@@ -43,6 +43,35 @@ execute \
         scoreboard players add #active_teams temp 1
 
 # set lobby sidebar
+scoreboard players display name *label_divider lobby_sidebar { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_red { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_orange { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_yellow { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_green { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_blue { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider lobby_sidebar_purple { \
+    "text": "-----------------", \
+    "color": white \
+}
+
 scoreboard players display name *label_you_are_at_lobby lobby_sidebar [\ 
     { \
         text: "我的位置：", \
@@ -717,6 +746,35 @@ scoreboard players display name *label_active_teams lobby_sidebar_purple [ \
         } \
     } \
 ]
+
+scoreboard players display name *label_divider_bottom lobby_sidebar { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_red { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_orange { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_yellow { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_green { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_blue { \
+    "text": "-----------------", \
+    "color": white \
+}
+scoreboard players display name *label_divider_bottom lobby_sidebar_purple { \
+    "text": "-----------------", \
+    "color": white \
+}
 
 # prevent item drop
 function builder_and_redstoner:actions/prevent_item_drop

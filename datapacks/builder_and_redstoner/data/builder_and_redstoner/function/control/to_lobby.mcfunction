@@ -3,6 +3,7 @@ execute \
         data modify storage builder_and_redstoner:config config.status set value "LOBBY"
 
 # sidebar layout:
+# divider
 # you are at lobby
 # blank line
 # turns of building
@@ -13,6 +14,7 @@ execute \
 # blank line
 # my team
 # number of active teams
+# divider
 scoreboard objectives setdisplay sidebar lobby_sidebar
 scoreboard objectives setdisplay sidebar.team.red lobby_sidebar_red
 scoreboard objectives setdisplay sidebar.team.gold lobby_sidebar_orange
@@ -20,6 +22,14 @@ scoreboard objectives setdisplay sidebar.team.yellow lobby_sidebar_yellow
 scoreboard objectives setdisplay sidebar.team.green lobby_sidebar_green
 scoreboard objectives setdisplay sidebar.team.blue lobby_sidebar_blue
 scoreboard objectives setdisplay sidebar.team.dark_purple lobby_sidebar_purple
+
+scoreboard players set *label_divider lobby_sidebar 11
+scoreboard players set *label_divider lobby_sidebar_red 11
+scoreboard players set *label_divider lobby_sidebar_orange 11
+scoreboard players set *label_divider lobby_sidebar_yellow 11
+scoreboard players set *label_divider lobby_sidebar_green 11
+scoreboard players set *label_divider lobby_sidebar_blue 11
+scoreboard players set *label_divider lobby_sidebar_purple 11
 
 scoreboard players set *label_you_are_at_lobby lobby_sidebar 10
 scoreboard players set *label_you_are_at_lobby lobby_sidebar_red 10
@@ -100,6 +110,14 @@ scoreboard players set *label_active_teams lobby_sidebar_yellow 1
 scoreboard players set *label_active_teams lobby_sidebar_green 1
 scoreboard players set *label_active_teams lobby_sidebar_blue 1
 scoreboard players set *label_active_teams lobby_sidebar_purple 1
+
+scoreboard players set *label_divider_bottom lobby_sidebar 0
+scoreboard players set *label_divider_bottom lobby_sidebar_red 0
+scoreboard players set *label_divider_bottom lobby_sidebar_orange 0
+scoreboard players set *label_divider_bottom lobby_sidebar_yellow 0
+scoreboard players set *label_divider_bottom lobby_sidebar_green 0
+scoreboard players set *label_divider_bottom lobby_sidebar_blue 0
+scoreboard players set *label_divider_bottom lobby_sidebar_purple 0
 
 scoreboard players display numberformat * lobby_sidebar blank
 scoreboard players display numberformat * lobby_sidebar_red blank
