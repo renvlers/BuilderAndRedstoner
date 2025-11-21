@@ -70,3 +70,6 @@ scoreboard objectives add lobby_sidebar_purple dummy { \
     bold: true \
 }
 scoreboard players reset * lobby_sidebar_purple
+
+scoreboard objectives add selection dummy
+scoreboard players reset * selection

@@ -122,7 +122,7 @@ execute \
     as @e[tag=label_theme_or_problem_selector, type=text_display] \
     if score #turn_type temp matches 0 run \
         data modify entity @s text set value { \
-            text: "右键选择建筑主题", \
+            text: "打开末影箱选择建筑主题", \
             color: "green", \
             bold: true \
         }
@@ -130,14 +130,34 @@ execute \
     as @e[tag=label_theme_or_problem_selector, type=text_display] \
     if score #turn_type temp matches 1 run \
         data modify entity @s text set value { \
-            text: "右键选择红石问题", \
+            text: "打开末影箱选择红石问题", \
             color: "red", \
             bold: true \
         }
 bossbar set builder_and_redstoner:current_turn visible true
 bossbar set builder_and_redstoner:current_turn players @a
 
+# load random themes/problems for selection
+execute \
+    if score #turn_type temp matches 0 run \
+        function builder_and_redstoner:actions/get_random_themes with storage builder_and_redstoner:themes
+execute \
+    if score #turn_type temp matches 1 run \
+        function builder_and_redstoner:actions/get_random_problems with storage builder_and_redstoner:problems
 
+scoreboard players reset @a selection
+execute \
+    if score #turn_type temp matches 0 run \
+        function builder_and_redstoner:actions/set_selecting_theme_ender_chest
+execute \
+    if score #turn_type temp matches 1 run \
+        function builder_and_redstoner:actions/set_selecting_problem_ender_chest
+
+# TODO: update sidebar
+
+# TODO: start to_gaming timeleft
+
+# teleport players to selecting area
 execute \
     as @a[team=red] run \
         tp @s 5077 66 3 180 0
@@ -157,6 +177,8 @@ execute \
     as @a[team=purple] run \
         tp @s 5105 66 11 0 0
 
+gamemode adventure @a
+
 execute \
-    if data storage builder_and_redstoner:config {config: {status: "SELECTING"}} run \
+    unless data storage builder_and_redstoner:config {config: {status: "SELECTING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "SELECTING"

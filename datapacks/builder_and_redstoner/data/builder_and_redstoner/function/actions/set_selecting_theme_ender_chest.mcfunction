@@ -1,0 +1,5 @@
+function builder_and_redstoner:actions/set_selecting_theme_ender_chest_1 with entity @n[type=interaction, tag=memory_entity] data.selected_themes[0]
+function builder_and_redstoner:actions/set_selecting_theme_ender_chest_2 with entity @n[type=interaction, tag=memory_entity] data.selected_themes[1]
+function builder_and_redstoner:actions/set_selecting_theme_ender_chest_3 with entity @n[type=interaction, tag=memory_entity] data.selected_themes[2]
+function builder_and_redstoner:actions/set_selecting_theme_ender_chest_4 with entity @n[type=interaction, tag=memory_entity] data.selected_themes[3]
+function builder_and_redstoner:actions/set_selecting_theme_ender_chest_5 with entity @n[type=interaction, tag=memory_entity] data.selected_themes[4]
