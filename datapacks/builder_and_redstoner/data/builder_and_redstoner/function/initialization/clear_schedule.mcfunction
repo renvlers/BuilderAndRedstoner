@@ -1,0 +1,4 @@
+schedule clear builder_and_redstoner:timers/timer_building
+schedule clear builder_and_redstoner:timers/timer_redstone
+schedule clear builder_and_redstoner:actions/start_game_timeleft
+schedule clear builder_and_redstoner:actions/start_turn_time_left

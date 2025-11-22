@@ -5,6 +5,8 @@ function builder_and_redstoner:initialization/create_turn_bossbar
 
 function builder_and_redstoner:initialization/reset_player_count
 
+function builder_and_redstoner:initialization/clear_schedule
+
 function builder_and_redstoner:initialization/load_building_themes
 function builder_and_redstoner:initialization/load_config
 

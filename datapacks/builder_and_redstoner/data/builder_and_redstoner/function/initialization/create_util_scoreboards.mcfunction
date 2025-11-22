@@ -122,3 +122,6 @@ scoreboard objectives add selecting_sidebar_purple dummy { \
     bold: true \
 }
 scoreboard players reset * selecting_sidebar_purple
+
+scoreboard objectives add total_score dummy
+scoreboard players reset * total_score

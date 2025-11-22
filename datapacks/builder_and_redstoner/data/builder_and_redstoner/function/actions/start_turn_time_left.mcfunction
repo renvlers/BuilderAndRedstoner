@@ -63,10 +63,10 @@ execute \
 
 execute \
     if score #start_turn_timeleft temp matches 4..5 run \
-        playsound minecraft:block.note_block.xylophone master @a ~ ~ ~ 2 1
+        playsound minecraft:block.note_block.harp master @a ~ ~ ~ 10000000 1
 execute \
     if score #start_turn_timeleft temp matches 1..3 run \
-        playsound minecraft:block.note_block.xylophone master @a ~ ~ ~ 2 1.4
+        playsound minecraft:block.note_block.harp master @a ~ ~ ~ 10000000 1.4
 
 scoreboard players remove #start_turn_timeleft temp 1
 
