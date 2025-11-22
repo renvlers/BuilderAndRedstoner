@@ -74,54 +74,54 @@ scoreboard players reset * lobby_sidebar_purple
 scoreboard objectives add selection dummy
 scoreboard players reset * selection
 
-scoreboard objectives add selecting_sidebar dummy { \
+scoreboard objectives add gaming_sidebar dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar
+scoreboard players reset * gaming_sidebar
 
-scoreboard objectives add selecting_sidebar_red dummy { \
+scoreboard objectives add gaming_sidebar_red dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_red
+scoreboard players reset * gaming_sidebar_red
 
-scoreboard objectives add selecting_sidebar_orange dummy { \
+scoreboard objectives add gaming_sidebar_orange dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_orange
+scoreboard players reset * gaming_sidebar_orange
 
-scoreboard objectives add selecting_sidebar_yellow dummy { \
+scoreboard objectives add gaming_sidebar_yellow dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_yellow
+scoreboard players reset * gaming_sidebar_yellow
 
-scoreboard objectives add selecting_sidebar_green dummy { \
+scoreboard objectives add gaming_sidebar_green dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_green
+scoreboard players reset * gaming_sidebar_green
 
-scoreboard objectives add selecting_sidebar_blue dummy { \
+scoreboard objectives add gaming_sidebar_blue dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_blue
+scoreboard players reset * gaming_sidebar_blue
 
-scoreboard objectives add selecting_sidebar_purple dummy { \
+scoreboard objectives add gaming_sidebar_purple dummy { \
     text: "红建工坊", \
     color: "#CCFF99", \
     bold: true \
 }
-scoreboard players reset * selecting_sidebar_purple
+scoreboard players reset * gaming_sidebar_purple
 
 scoreboard objectives add total_score dummy
 scoreboard players reset * total_score

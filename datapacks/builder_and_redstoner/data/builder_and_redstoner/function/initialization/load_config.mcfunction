@@ -4,6 +4,6 @@ data merge storage builder_and_redstoner:config { \
     config: { \
         status: "LOBBY", \
         building_turns: 2, \
-        redstone_turns: 1 \
+        redstone_turns: 0 \
     } \
 }

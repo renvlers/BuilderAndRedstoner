@@ -1,6 +1,6 @@
 # update lobby sidebar labels
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -13,7 +13,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_red [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_red [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -26,7 +26,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_orange [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_orange [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -39,7 +39,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_yellow [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_yellow [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -52,7 +52,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_green [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_green [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -65,7 +65,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_blue [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_blue [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -78,7 +78,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_purple [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_purple [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -92,7 +92,7 @@ execute if score #turn_type temp matches 0 run \
     ]
 
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -105,7 +105,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_red [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_red [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -118,7 +118,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_orange [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_orange [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -131,7 +131,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_yellow [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_yellow [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -144,7 +144,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_green [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_green [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -157,7 +157,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_blue [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_blue [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -170,7 +170,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_you_are_at selecting_sidebar_purple [\ 
+    scoreboard players display name *label_you_are_at gaming_sidebar_purple [\ 
         { \
             text: "我的位置：", \
             color: "#35ECE2", \
@@ -183,15 +183,15 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 
-scoreboard players display name *label_blank0 selecting_sidebar ""
-scoreboard players display name *label_blank0 selecting_sidebar_red ""
-scoreboard players display name *label_blank0 selecting_sidebar_orange ""
-scoreboard players display name *label_blank0 selecting_sidebar_yellow ""
-scoreboard players display name *label_blank0 selecting_sidebar_green ""
-scoreboard players display name *label_blank0 selecting_sidebar_blue ""
-scoreboard players display name *label_blank0 selecting_sidebar_purple ""
+scoreboard players display name *label_blank0 gaming_sidebar ""
+scoreboard players display name *label_blank0 gaming_sidebar_red ""
+scoreboard players display name *label_blank0 gaming_sidebar_orange ""
+scoreboard players display name *label_blank0 gaming_sidebar_yellow ""
+scoreboard players display name *label_blank0 gaming_sidebar_green ""
+scoreboard players display name *label_blank0 gaming_sidebar_blue ""
+scoreboard players display name *label_blank0 gaming_sidebar_purple ""
 
-scoreboard players display name *label_current_turn selecting_sidebar [ \
+scoreboard players display name *label_current_turn gaming_sidebar [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -221,7 +221,7 @@ scoreboard players display name *label_current_turn selecting_sidebar [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_red [ \
+scoreboard players display name *label_current_turn gaming_sidebar_red [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -251,7 +251,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_red [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_orange [ \
+scoreboard players display name *label_current_turn gaming_sidebar_orange [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -281,7 +281,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_orange [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_yellow [ \
+scoreboard players display name *label_current_turn gaming_sidebar_yellow [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -311,7 +311,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_yellow [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_green [ \
+scoreboard players display name *label_current_turn gaming_sidebar_green [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -341,7 +341,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_green [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_blue [ \
+scoreboard players display name *label_current_turn gaming_sidebar_blue [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -371,7 +371,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_blue [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_current_turn selecting_sidebar_purple [ \
+scoreboard players display name *label_current_turn gaming_sidebar_purple [ \
     { \
         text: "当前轮次：", \
         color: "#237EFF", \
@@ -403,7 +403,7 @@ scoreboard players display name *label_current_turn selecting_sidebar_purple [ \
 ]
 
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar [ \
+    scoreboard players display name *label_turn_type gaming_sidebar [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -416,7 +416,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_red [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_red [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -429,7 +429,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_orange [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_orange [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -442,7 +442,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_yellow [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_yellow [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -455,7 +455,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_green [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_green [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -468,7 +468,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_blue [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_blue [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -481,7 +481,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_purple [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_purple [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -495,7 +495,7 @@ execute if score #turn_type temp matches 0 run \
     ]
 
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar [ \
+    scoreboard players display name *label_turn_type gaming_sidebar [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -508,7 +508,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_red [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_red [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -521,7 +521,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_orange [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_orange [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -534,7 +534,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_yellow [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_yellow [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -547,7 +547,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_green [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_green [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -560,7 +560,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_blue [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_blue [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -573,7 +573,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_turn_type selecting_sidebar_purple [ \
+    scoreboard players display name *label_turn_type gaming_sidebar_purple [ \
         { \
             text: "本轮类型：", \
             color: "#FF99CC", \
@@ -586,16 +586,16 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 
-scoreboard players display name *label_blank1 selecting_sidebar ""
-scoreboard players display name *label_blank1 selecting_sidebar_red ""
-scoreboard players display name *label_blank1 selecting_sidebar_orange ""
-scoreboard players display name *label_blank1 selecting_sidebar_yellow ""
-scoreboard players display name *label_blank1 selecting_sidebar_green ""
-scoreboard players display name *label_blank1 selecting_sidebar_blue ""
-scoreboard players display name *label_blank1 selecting_sidebar_purple ""
+scoreboard players display name *label_blank1 gaming_sidebar ""
+scoreboard players display name *label_blank1 gaming_sidebar_red ""
+scoreboard players display name *label_blank1 gaming_sidebar_orange ""
+scoreboard players display name *label_blank1 gaming_sidebar_yellow ""
+scoreboard players display name *label_blank1 gaming_sidebar_green ""
+scoreboard players display name *label_blank1 gaming_sidebar_blue ""
+scoreboard players display name *label_blank1 gaming_sidebar_purple ""
 
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar [ \
+    scoreboard players display name *label_selected gaming_sidebar [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -607,7 +607,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_red [ \
+    scoreboard players display name *label_selected gaming_sidebar_red [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -619,7 +619,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_orange [ \
+    scoreboard players display name *label_selected gaming_sidebar_orange [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -631,7 +631,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_yellow [ \
+    scoreboard players display name *label_selected gaming_sidebar_yellow [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -643,7 +643,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_green [ \
+    scoreboard players display name *label_selected gaming_sidebar_green [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -655,7 +655,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_blue [ \
+    scoreboard players display name *label_selected gaming_sidebar_blue [ \
         { \
             text: "本轮主题：", \
             color: "#FFFF55", \
@@ -667,94 +667,9 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_selected selecting_sidebar_purple [ \
+    scoreboard players display name *label_selected gaming_sidebar_purple [ \
         { \
             text: "本轮主题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_red [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_orange [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_yellow [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_green [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_blue [ \
-        { \
-            text: "本轮问题：", \
-            color: "#FFFF55", \
-            bold: true \
-        }, \
-        { \
-            text: "待定", \
-            color: "gray" \
-        } \
-    ]
-execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_selected selecting_sidebar_purple [ \
-        { \
-            text: "本轮问题：", \
             color: "#FFFF55", \
             bold: true \
         }, \
@@ -764,8 +679,93 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_red [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_orange [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_yellow [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_green [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_blue [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+execute if score #turn_type temp matches 1 run \
+    scoreboard players display name *label_selected gaming_sidebar_purple [ \
+        { \
+            text: "本轮问题：", \
+            color: "#FFFF55", \
+            bold: true \
+        }, \
+        { \
+            text: "待定", \
+            color: "gray" \
+        } \
+    ]
+
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar [ \
+    scoreboard players display name *label_time_limit gaming_sidebar [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -777,7 +777,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_red [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_red [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -789,7 +789,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_orange [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_orange [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -801,7 +801,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_yellow [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_yellow [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -813,7 +813,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_green [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_green [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -825,7 +825,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_blue [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_blue [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -837,7 +837,7 @@ execute if score #turn_type temp matches 0 run \
         } \
     ]
 execute if score #turn_type temp matches 0 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_purple [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_purple [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -850,7 +850,7 @@ execute if score #turn_type temp matches 0 run \
     ]
 
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar [ \
+    scoreboard players display name *label_time_limit gaming_sidebar [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -862,7 +862,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_red [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_red [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -874,7 +874,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_orange [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_orange [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -886,7 +886,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_yellow [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_yellow [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -898,7 +898,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_green [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_green [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -910,7 +910,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_blue [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_blue [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -922,7 +922,7 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 execute if score #turn_type temp matches 1 run \
-    scoreboard players display name *label_time_limit selecting_sidebar_purple [ \
+    scoreboard players display name *label_time_limit gaming_sidebar_purple [ \
         { \
             text: "时间限制：", \
             color: "#4AA7CF", \
@@ -934,15 +934,15 @@ execute if score #turn_type temp matches 1 run \
         } \
     ]
 
-scoreboard players display name *label_blank2 selecting_sidebar ""
-scoreboard players display name *label_blank2 selecting_sidebar_red ""
-scoreboard players display name *label_blank2 selecting_sidebar_orange ""
-scoreboard players display name *label_blank2 selecting_sidebar_yellow ""
-scoreboard players display name *label_blank2 selecting_sidebar_green ""
-scoreboard players display name *label_blank2 selecting_sidebar_blue ""
-scoreboard players display name *label_blank2 selecting_sidebar_purple ""
+scoreboard players display name *label_blank2 gaming_sidebar ""
+scoreboard players display name *label_blank2 gaming_sidebar_red ""
+scoreboard players display name *label_blank2 gaming_sidebar_orange ""
+scoreboard players display name *label_blank2 gaming_sidebar_yellow ""
+scoreboard players display name *label_blank2 gaming_sidebar_green ""
+scoreboard players display name *label_blank2 gaming_sidebar_blue ""
+scoreboard players display name *label_blank2 gaming_sidebar_purple ""
 
-scoreboard players display name *label_my_team selecting_sidebar [ \
+scoreboard players display name *label_my_team gaming_sidebar [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -954,7 +954,7 @@ scoreboard players display name *label_my_team selecting_sidebar [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_red [ \
+scoreboard players display name *label_my_team gaming_sidebar_red [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -966,7 +966,7 @@ scoreboard players display name *label_my_team selecting_sidebar_red [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_orange [ \
+scoreboard players display name *label_my_team gaming_sidebar_orange [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -978,7 +978,7 @@ scoreboard players display name *label_my_team selecting_sidebar_orange [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_yellow [ \
+scoreboard players display name *label_my_team gaming_sidebar_yellow [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -990,7 +990,7 @@ scoreboard players display name *label_my_team selecting_sidebar_yellow [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_green [ \
+scoreboard players display name *label_my_team gaming_sidebar_green [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -1002,7 +1002,7 @@ scoreboard players display name *label_my_team selecting_sidebar_green [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_blue [ \
+scoreboard players display name *label_my_team gaming_sidebar_blue [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -1014,7 +1014,7 @@ scoreboard players display name *label_my_team selecting_sidebar_blue [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_my_team selecting_sidebar_purple [ \
+scoreboard players display name *label_my_team gaming_sidebar_purple [ \
     { \
         text: "我的队伍：", \
         color: "#FF99CC", \
@@ -1027,7 +1027,7 @@ scoreboard players display name *label_my_team selecting_sidebar_purple [ \
     } \
 ]
 
-scoreboard players display name *label_active_teams selecting_sidebar [ \
+scoreboard players display name *label_active_teams gaming_sidebar [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1043,7 +1043,7 @@ scoreboard players display name *label_active_teams selecting_sidebar [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_red [ \
+scoreboard players display name *label_active_teams gaming_sidebar_red [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1059,7 +1059,7 @@ scoreboard players display name *label_active_teams selecting_sidebar_red [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_orange [ \
+scoreboard players display name *label_active_teams gaming_sidebar_orange [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1075,7 +1075,7 @@ scoreboard players display name *label_active_teams selecting_sidebar_orange [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_yellow [ \
+scoreboard players display name *label_active_teams gaming_sidebar_yellow [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1091,7 +1091,7 @@ scoreboard players display name *label_active_teams selecting_sidebar_yellow [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_green [ \
+scoreboard players display name *label_active_teams gaming_sidebar_green [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1107,7 +1107,7 @@ scoreboard players display name *label_active_teams selecting_sidebar_green [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_blue [ \
+scoreboard players display name *label_active_teams gaming_sidebar_blue [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
@@ -1123,7 +1123,7 @@ scoreboard players display name *label_active_teams selecting_sidebar_blue [ \
         bold: true \
     } \
 ]
-scoreboard players display name *label_active_teams selecting_sidebar_purple [ \
+scoreboard players display name *label_active_teams gaming_sidebar_purple [ \
     { \
         text: "活跃队伍：", \
         color: "#FFA500", \
