@@ -190,6 +190,13 @@ fill 10302 62 28 10336 62 62 grass_block
 
 fillbiome 10206 61 -21 10338 98 64 plains
 
+kill @e[x=10206, y=61, z=-21, dx=38 , dy=37 , dz=38]
+kill @e[x=10253, y=61, z=-21, dx=38 , dy=37 , dz=38]
+kill @e[x=10300, y=61, z=-21, dx=38 , dy=37 , dz=38]
+kill @e[x=10206, y=61, z=26, dx=38 , dy=37 , dz=38]
+kill @e[x=10253, y=61, z=26, dx=38 , dy=37 , dz=38]
+kill @e[x=10300, y=61, z=26, dx=38 , dy=37 , dz=38]
+
 # decide theme or problem
 function builder_and_redstoner:actions/decide_themes_or_problems
 
