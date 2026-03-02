@@ -1,1 +1,1 @@
-dialog show @s builder_and_redstoner:chang_time_and_weather
+dialog show @s builder_and_redstoner:change_time_and_weather
