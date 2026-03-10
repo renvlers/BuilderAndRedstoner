@@ -1,0 +1,1 @@
+scoreboard players set #lock parkour_platform_control 0

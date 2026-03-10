@@ -1,0 +1,1 @@
+execute if block 175 112 -49 minecraft:stone_button[powered=true] run function rbworkshop_parkour_control:events/on_platform_0_button_click
