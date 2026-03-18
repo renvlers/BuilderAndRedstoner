@@ -1,5 +1,20 @@
 scoreboard objectives add parkour_platform_control dummy
 scoreboard players reset * parkour_platform_control
+scoreboard objectives add parkour_checkpoint dummy
+scoreboard players reset * parkour_checkpoint
+scoreboard objectives add parkour_timer dummy
+scoreboard players reset * parkour_timer
+scoreboard objectives add parkour_timer_seconds dummy
+scoreboard players reset * parkour_timer_seconds
+scoreboard objectives add parkour_timer_minutes dummy
+scoreboard players reset * parkour_timer_minutes
+scoreboard objectives add parkour_timer_hours dummy
+scoreboard players reset * parkour_timer_hours
+
+scoreboard players set #base parkour_timer_hours 60
+scoreboard players set #base parkour_timer_minutes 60
+scoreboard players set #base parkour_timer_seconds 20
+
 
 schedule clear rbworkshop_parkour_control:actions/reset_platform_0
 schedule clear rbworkshop_parkour_control:actions/unlock_button
