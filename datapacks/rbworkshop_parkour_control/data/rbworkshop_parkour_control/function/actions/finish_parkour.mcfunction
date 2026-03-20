@@ -11,3 +11,5 @@ tellraw @a [ \
     { type: "score", score: { name: "@s", objective: "parkour_timer_seconds" }, color: "gold", bold: true }, \
     { text: " 秒", color: "yellow", bold: true } \
 ]
+
+playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 1 1

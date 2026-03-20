@@ -59,17 +59,17 @@ execute as @a[sort=arbitrary] at @s if score @s right_check matches 1.. if items
 
 # check ready status
 execute \
-    as @a[sort=arbitrary] run \
+    as @a[sort=arbitrary, tag=!parkour_participant] run \
         function builder_and_redstoner:actions/check_ready
 execute \
     as @a[sort=arbitrary,team=] run \
         function builder_and_redstoner:actions/cancel_ready
 execute \
-    as @a[sort=arbitrary] \
+    as @a[sort=arbitrary, tag=!parkour_participant] \
     if score @s right_check matches 1.. run \
         function builder_and_redstoner:events/on_rightclick_ready
 execute \
-    as @a[sort=arbitrary] \
+    as @a[sort=arbitrary, tag=!parkour_participant] \
     if score @s right_check matches 1.. run \
         scoreboard players reset @s right_check
 
@@ -92,6 +92,7 @@ execute \
 execute \
     as @a[sort=arbitrary,x=55, y=64, z=-13, dx=0, dy=0, dz=0, team=!purple] run \
         function builder_and_redstoner:actions/join_purple_team
+execute as @a[sort=arbitrary, x=64, y=64, z=-13, dx=0, dy=0, dz=0, team=!] run function builder_and_redstoner:actions/leave_team
 
 # detect menu button clicks
 execute \
@@ -129,7 +130,5 @@ execute \
 
 execute as @n[tag=random_partition_button,type=interaction] if data entity @s interaction on target run function builder_and_redstoner:events/on_random_partition_button_click
 execute as @n[tag=random_partition_button,type=interaction] if data entity @s interaction on target run data remove entity @n[tag=random_partition_button,type=interaction] interaction
-
-execute as @a[sort=arbitrary,x=66, y=76, z=-13, dx=0, dy=0, dz=0] at @s run function builder_and_redstoner:events/on_player_win_parkour
 
 execute as @e[tag=seat, sort=arbitrary, type=interaction] if data entity @s interaction run function builder_and_redstoner:events/on_seat_right_clicked
