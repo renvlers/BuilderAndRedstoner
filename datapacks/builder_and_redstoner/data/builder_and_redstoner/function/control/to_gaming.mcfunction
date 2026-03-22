@@ -1,5 +1,7 @@
+clear @a[team=!, sort=arbitrary]
 playsound minecraft:block.note_block.harp master @a[sort=arbitrary] ~ ~ ~ 10000000 2
 title @a[sort=arbitrary] reset
+title @a[team=!, sort=arbitrary] actionbar ""
 
 # set effects
 function builder_and_redstoner:actions/set_effects

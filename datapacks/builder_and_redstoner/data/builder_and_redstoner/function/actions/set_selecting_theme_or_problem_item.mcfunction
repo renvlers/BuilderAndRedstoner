@@ -1,0 +1,11 @@
+execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/set_selecting_item_1_building with entity @n[type=marker, tag=memory_entity] data.selected_themes[0]
+execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/set_selecting_item_2_building with entity @n[type=marker, tag=memory_entity] data.selected_themes[1]
+execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/set_selecting_item_3_building with entity @n[type=marker, tag=memory_entity] data.selected_themes[2]
+execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/set_selecting_item_4_building with entity @n[type=marker, tag=memory_entity] data.selected_themes[3]
+execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/set_selecting_item_5_building with entity @n[type=marker, tag=memory_entity] data.selected_themes[4]
+
+execute if score #turn_type temp matches 1 run function builder_and_redstoner:actions/set_selecting_item_1_redstone with entity @n[type=marker, tag=memory_entity] data.selected_problems[0]
+execute if score #turn_type temp matches 1 run function builder_and_redstoner:actions/set_selecting_item_2_redstone with entity @n[type=marker, tag=memory_entity] data.selected_problems[1]
+execute if score #turn_type temp matches 1 run function builder_and_redstoner:actions/set_selecting_item_3_redstone with entity @n[type=marker, tag=memory_entity] data.selected_problems[2]
+execute if score #turn_type temp matches 1 run function builder_and_redstoner:actions/set_selecting_item_4_redstone with entity @n[type=marker, tag=memory_entity] data.selected_problems[3]
+execute if score #turn_type temp matches 1 run function builder_and_redstoner:actions/set_selecting_item_5_redstone with entity @n[type=marker, tag=memory_entity] data.selected_problems[4]

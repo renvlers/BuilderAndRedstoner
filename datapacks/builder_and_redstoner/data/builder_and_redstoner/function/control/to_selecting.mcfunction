@@ -338,23 +338,22 @@ scoreboard players display numberformat *label_active_teams gaming_sidebar_purpl
 # teleport players to selecting area
 execute \
     as @a[sort=arbitrary,team=red] run \
-        tp @s 5077 66 3 180 0
+        tp @s -64 63 22 90 0
 execute \
     as @a[sort=arbitrary,team=orange] run \
-        tp @s 5091 66 3 180 0
+        tp @s -64 63 6 90 0
 execute \
     as @a[sort=arbitrary,team=yellow] run \
-        tp @s 5105 66 3 180 0
+        tp @s -64 63 -10 90 0
 execute \
     as @a[sort=arbitrary,team=green] run \
-        tp @s 5077 66 11 0 0
+        tp @s -48 63 22 -90 0
 execute \
     as @a[sort=arbitrary,team=blue] run \
-        tp @s 5091 66 11 0 0
+        tp @s -48 63 6 -90 0
 execute \
     as @a[sort=arbitrary,team=purple] run \
-        tp @s 5105 66 11 0 0
-tp @a[sort=arbitrary,team=] 5091 80 7
+        tp @s -48 63 -10 -90 0
 gamemode adventure @a[sort=arbitrary,team=!]
 gamemode spectator @a[sort=arbitrary,team=]
 

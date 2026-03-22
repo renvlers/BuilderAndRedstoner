@@ -1,7 +1,4 @@
-$execute \
-    as @a[team=!] \
-    unless score @s selection matches 2 run \
-        item replace entity @s enderchest.13 with red_stained_glass_pane[ \
+$execute unless score @s selection matches 0 run item replace entity @s container.2 with warped_fungus_on_a_stick[ \
             item_name=[ \
                 { \
                     text: "【未选择】", \
@@ -14,13 +11,11 @@ $execute \
                     bold: true \
                 } \
             ], \
-            custom_data={theme: 2} \
+            custom_data={theme: 0}, \
+            item_model=red_stained_glass_pane \
         ]
 
-$execute \
-    as @a[team=!] \
-    if score @s selection matches 2 run \
-        item replace entity @s enderchest.13 with lime_stained_glass_pane[ \
+$execute if score @s selection matches 0 run item replace entity @s container.2 with warped_fungus_on_a_stick[ \
             item_name=[ \
                 { \
                     text: "【已选择】", \
@@ -33,5 +28,6 @@ $execute \
                     bold: true \
                 } \
             ], \
-            custom_data={theme: 2} \
+            custom_data={theme: 0}, \
+            item_model=lime_stained_glass_pane \
         ]

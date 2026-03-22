@@ -1,5 +1,0 @@
-function builder_and_redstoner:actions/set_selecting_problem_ender_chest_1 with entity @n[type=marker, tag=memory_entity] data.selected_problems[0]
-function builder_and_redstoner:actions/set_selecting_problem_ender_chest_2 with entity @n[type=marker, tag=memory_entity] data.selected_problems[1]
-function builder_and_redstoner:actions/set_selecting_problem_ender_chest_3 with entity @n[type=marker, tag=memory_entity] data.selected_problems[2]
-function builder_and_redstoner:actions/set_selecting_problem_ender_chest_4 with entity @n[type=marker, tag=memory_entity] data.selected_problems[3]
-function builder_and_redstoner:actions/set_selecting_problem_ender_chest_5 with entity @n[type=marker, tag=memory_entity] data.selected_problems[4]
