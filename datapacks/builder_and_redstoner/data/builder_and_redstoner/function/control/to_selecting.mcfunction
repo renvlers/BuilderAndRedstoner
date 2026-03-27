@@ -152,12 +152,6 @@ execute \
         function builder_and_redstoner:actions/get_random_problems with storage builder_and_redstoner:problems
 
 scoreboard players reset @a selection
-execute \
-    if score #turn_type temp matches 0 run \
-        function builder_and_redstoner:actions/set_selecting_theme_ender_chest
-execute \
-    if score #turn_type temp matches 1 run \
-        function builder_and_redstoner:actions/set_selecting_problem_ender_chest
 
 # sidebar layout:
 # you are at
@@ -437,6 +431,8 @@ title @a[sort=arbitrary] title [ \
 ]
 
 function builder_and_redstoner:actions/start_turn_time_left
+
+clear @a[team=!, sort=arbitrary]
 
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "SELECTING"}} run \
