@@ -1,6 +1,6 @@
 execute unless score #timer_building counter matches 1..599 run scoreboard players set #timer_building counter 600
 
-execute if score #timer_building counter matches 1..10 run title @a actionbar [ \
+execute if score #timer_building counter matches 1..10 run title @a[team=!, sort=arbitrary] actionbar [ \
     { \
         text: "距离比赛结束还有 ", \
         color: "aqua", \
