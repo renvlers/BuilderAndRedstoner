@@ -52,6 +52,8 @@ tp @a[sort=arbitrary,team=green] 10225 75 45 90 15
 tp @a[sort=arbitrary,team=blue] 10272 75 45 90 15
 tp @a[sort=arbitrary,team=purple] 10319 75 45 90 15
 tp @a[sort=arbitrary,team=] 10272 111 21.5
+execute as @a[team=, sort=arbitrary] at @s run spectate @r[team=!, sort=arbitrary, limit=1]
+
 # 延迟切换创造模式，确保玩家处于飞行状态
 schedule function builder_and_redstoner:actions/set_gamemode_to_creative 3t
 
@@ -81,3 +83,5 @@ data modify entity @n[tag=memory_entity] data.time_and_weather.purple set value 
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "GAMING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "GAMING"
+
+title @a[team=, sort=arbitrary] actionbar ""

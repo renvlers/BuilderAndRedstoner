@@ -348,16 +348,15 @@ execute \
 execute \
     as @a[sort=arbitrary,team=purple] run \
         tp @s -48 63 -10 -90 0
-gamemode adventure @a[sort=arbitrary,team=!]
-gamemode spectator @a[sort=arbitrary,team=]
+gamemode adventure @a[sort=arbitrary]
 
 time set noon
 weather clear
 
-title @a[sort=arbitrary] times 10 100 20
+title @a[sort=arbitrary, team=!] times 10 100 20
 execute \
     if score #turn_type temp matches 0 run \
-        title @a[sort=arbitrary] subtitle [ \
+        title @a[sort=arbitrary, team=!] subtitle [ \
             { \
                 text: "本轮为", \
                 color: "#CEAC88", \
@@ -376,7 +375,7 @@ execute \
         ]
 execute \
     if score #turn_type temp matches 1 run \
-        title @a[sort=arbitrary] subtitle [ \
+        title @a[sort=arbitrary, team=!] subtitle [ \
             { \
                 text: "本轮为", \
                 color: "#CEAC88", \
@@ -394,7 +393,7 @@ execute \
             } \
         ]
 
-title @a[sort=arbitrary] title [ \
+title @a[sort=arbitrary, team=!] title [ \
     { \
         text: "【红建工坊】第 ", \
         color: "#CCFF99", \

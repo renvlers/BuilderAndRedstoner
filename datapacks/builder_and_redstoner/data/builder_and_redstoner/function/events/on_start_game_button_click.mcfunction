@@ -1,13 +1,16 @@
 scoreboard players set #can_start temp 1
 
+scoreboard players set #active player_count 0
+execute as @a[team=!] run scoreboard players add #active player_count 1
+
 execute \
-    unless score #ready player_count = #online player_count run \
+    unless score #ready player_count = #active player_count run \
         scoreboard players set #can_start temp 0
 
 execute \
-    unless score #ready player_count = #online player_count run \
+    unless score #ready player_count = #active player_count run \
         title @s actionbar { \
-            text: "【红建工坊】有玩家尚未准备，请等待所有玩家准备后开始游戏", \
+            text: "【红建工坊】有玩家已加入队伍但尚未准备，请等待所有已加入队伍的玩家准备后开始游戏", \
             color: "#FF6666", \
             bold: true \
         }
@@ -17,7 +20,7 @@ execute \
         scoreboard players set #can_start temp 0
 
 execute \
-    if score #ready player_count = #online player_count \
+    if score #ready player_count = #active player_count \
     if score #active_teams temp matches ..1 run \
         title @s actionbar { \
             text: "【红建工坊】需要至少两个队伍才能开始游戏，请让玩家加入不同队伍", \
