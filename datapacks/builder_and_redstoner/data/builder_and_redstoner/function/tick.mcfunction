@@ -55,9 +55,3 @@ execute \
 execute \
     if data storage builder_and_redstoner:config {config: {status: "REWARDING"}} run \
         function builder_and_redstoner:control/at_rewarding
-
-execute as @a[sort=arbitrary,team=, gamemode=spectator] run title @s actionbar { \
-    text: "【红建工坊】当前正在观战其他玩家", \
-    color: "gray", \
-    bold: true \
-}

@@ -1,5 +1,5 @@
 clear @a[team=!, sort=arbitrary]
-playsound minecraft:block.note_block.harp master @a[sort=arbitrary] ~ ~ ~ 10000000 2
+playsound minecraft:block.note_block.harp master @a[sort=arbitrary, team=!] ~ ~ ~ 10000000 2
 title @a[sort=arbitrary] reset
 title @a[team=!, sort=arbitrary] actionbar ""
 

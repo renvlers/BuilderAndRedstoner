@@ -4,11 +4,11 @@ execute \
 
 execute \
     if score #start_timeleft temp matches 1..4 run \
-        title @a[team=!] times 0 30 0
+        title @a[sort=arbitrary] times 0 30 0
 
 execute \
     if score #start_timeleft temp matches 4..5 run \
-        title @a[team=!] subtitle [ \
+        title @a[sort=arbitrary] subtitle [ \
             { \
                 text: "游戏将在 ", \
                 color: "white", \
@@ -31,7 +31,7 @@ execute \
         ]
 execute \
     if score #start_timeleft temp matches 1..3 run \
-        title @a[team=!] subtitle [ \
+        title @a[sort=arbitrary] subtitle [ \
             { \
                 text: "游戏将在 ", \
                 color: "white", \
@@ -53,7 +53,7 @@ execute \
             } \
         ]
 
-title @a[team=!] title { \
+title @a[sort=arbitrary] title { \
     text: "欢迎来到红建工坊", \
     color: "#CCFF99", \
     bold: true \
@@ -61,10 +61,10 @@ title @a[team=!] title { \
 
 execute \
     if score #start_timeleft temp matches 4..5 run \
-        playsound minecraft:block.note_block.bell master @a[team=!] ~ ~ ~ 10000000 1
+        playsound minecraft:block.note_block.bell master @a[sort=arbitrary] ~ ~ ~ 10000000 1
 execute \
     if score #start_timeleft temp matches 1..3 run \
-        playsound minecraft:block.note_block.bell master @a[team=!] ~ ~ ~ 10000000 1.4
+        playsound minecraft:block.note_block.bell master @a[sort=arbitrary] ~ ~ ~ 10000000 1.4
 
 scoreboard players remove #start_timeleft temp 1
 

@@ -81,3 +81,5 @@ execute as @a[team=purple] at @s unless dimension overworld run title @s actionb
     bold: true \
 }
 execute as @a[team=purple] at @s unless dimension overworld in overworld run tp @s 10319 75 45 90 15
+
+execute as @a[team=, sort=arbitrary] at @s run function builder_and_redstoner:actions/spectate_a_player with entity @s EnderItems[0].components."minecraft:profile"

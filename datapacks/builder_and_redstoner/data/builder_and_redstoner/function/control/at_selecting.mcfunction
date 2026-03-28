@@ -22,3 +22,5 @@ execute if score #turn_type temp matches 1 run title @a[team=!, sort=arbitrary] 
         bold: true \
     } \
 ]
+
+execute as @a[team=, sort=arbitrary] at @s run function builder_and_redstoner:actions/spectate_a_player with entity @s EnderItems[0].components."minecraft:profile"

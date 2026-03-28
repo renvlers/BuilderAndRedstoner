@@ -1,7 +1,6 @@
 execute if score #turn_type temp matches 0 run function builder_and_redstoner:actions/count_votes
 gamemode adventure @a[team=!]
 kill @e[type=interaction, tag=click_detector]
-item replace entity @a enderchest.0 with air
 execute as @a[team=!] run attribute @s minecraft:attack_damage base set 1
 
 # show scores of this turn using tellraw

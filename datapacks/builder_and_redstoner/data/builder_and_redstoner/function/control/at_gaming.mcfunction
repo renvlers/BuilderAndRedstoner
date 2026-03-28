@@ -108,3 +108,5 @@ execute if score #turn_type temp matches 0 as @a[team=!] if data entity @s {equi
 execute if score #turn_type temp matches 1 run kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{item_type:"problem_details"}}}}]
 $execute if score #turn_type temp matches 1 as @a[team=!, scores={right_check=1..}, nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick", components: {"minecraft:custom_data": {item_type: "problem_details"}}}}] run function builder_and_redstoner:actions/open_redstone_problem_description_dialog with entity @n[tag=memory_entity, type=marker] data.selected_problems[$(current_selection)]
 execute if score #turn_type temp matches 1 as @a[team=!, scores={right_check=1..}, nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick", components: {"minecraft:custom_data": {item_type: "problem_details"}}}}] run scoreboard players reset @s right_check
+
+execute as @a[team=, sort=arbitrary] at @s run function builder_and_redstoner:actions/spectate_a_player with entity @s EnderItems[0].components."minecraft:profile"
