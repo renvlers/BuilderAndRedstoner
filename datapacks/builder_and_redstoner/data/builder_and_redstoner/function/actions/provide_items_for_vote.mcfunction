@@ -40,7 +40,7 @@ execute as @a[team=!] unless items entity @s weapon.offhand air run item replace
 
 item replace entity @a[team=!] container.2 with orange_concrete[ \
     item_name = { \
-        text: "夯", \
+        text: "! ? 强强 ? !", \
         color: "gold", \
         bold: true \
     }, \
@@ -50,7 +50,7 @@ item replace entity @a[team=!] container.2 with orange_concrete[ \
 ]
 item replace entity @a[team=!] container.3 with magenta_concrete[ \
     item_name = { \
-        text: "顶级", \
+        text: "这么强 ? !", \
         color: "light_purple", \
         bold: true \
     }, \
@@ -60,7 +60,7 @@ item replace entity @a[team=!] container.3 with magenta_concrete[ \
 ]
 item replace entity @a[team=!] container.4 with light_blue_concrete[ \
     item_name = { \
-        text: "人上人", \
+        text: "有点强 , , ,", \
         color: "aqua", \
         bold: true \
     }, \
@@ -70,7 +70,7 @@ item replace entity @a[team=!] container.4 with light_blue_concrete[ \
 ]
 item replace entity @a[team=!] container.5 with lime_concrete[ \
     item_name = { \
-        text: "NPC", \
+        text: "有点弱 , , ,", \
         color: "green", \
         bold: true \
     }, \
@@ -80,7 +80,7 @@ item replace entity @a[team=!] container.5 with lime_concrete[ \
 ]
 item replace entity @a[team=!] container.6 with white_concrete[ \
     item_name = { \
-        text: "拉完了", \
+        text: "这么弱 ? ? ?", \
         color: "white", \
         bold: true \
     }, \

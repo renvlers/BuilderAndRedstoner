@@ -46,7 +46,7 @@ $execute as @a[team=!] if entity @s[team=!$(team)] if score @s vote_player match
         bold: true \ 
     }, \
     { \
-        text: "夯", \
+        text: "! ? 强强 ? !", \
         color: "gold", \
         bold: true \
     } \
@@ -69,7 +69,7 @@ $execute as @a[team=!] if entity @s[team=!$(team)] if score @s vote_player match
         bold: true \ 
     }, \
     { \
-        text: "顶级", \
+        text: "这么强 ? !", \
         color: "light_purple", \
         bold: true \
     } \
@@ -92,7 +92,7 @@ $execute as @a[team=!] if entity @s[team=!$(team)] if score @s vote_player match
         bold: true \ 
     }, \
     { \
-        text: "人上人", \
+        text: "有点强 , , ,", \
         color: "aqua", \
         bold: true \
     } \
@@ -115,7 +115,7 @@ $execute as @a[team=!] if entity @s[team=!$(team)] if score @s vote_player match
         bold: true \ 
     }, \
     { \
-        text: "NPC", \
+        text: "有点弱 , , ,", \
         color: "green", \
         bold: true \
     } \
@@ -138,7 +138,7 @@ $execute as @a[team=!] if entity @s[team=!$(team)] if score @s vote_player match
         bold: true \ 
     }, \
     { \
-        text: "拉完了", \
+        text: "这么弱 ? ? ?", \
         color: "white", \
         bold: true \
     } \
