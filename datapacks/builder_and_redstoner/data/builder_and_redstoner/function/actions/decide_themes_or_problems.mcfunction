@@ -40,8 +40,3 @@ execute \
 
 # 7. 收尾清理
 kill @e[tag=vote_calculator]
-item replace entity @a enderchest.11 with air
-item replace entity @a enderchest.12 with air
-item replace entity @a enderchest.13 with air
-item replace entity @a enderchest.14 with air
-item replace entity @a enderchest.15 with air
