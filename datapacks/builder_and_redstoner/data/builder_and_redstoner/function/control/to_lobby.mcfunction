@@ -17,85 +17,142 @@ scoreboard objectives setdisplay sidebar.team.green lobby_sidebar_green
 scoreboard objectives setdisplay sidebar.team.blue lobby_sidebar_blue
 scoreboard objectives setdisplay sidebar.team.dark_purple lobby_sidebar_purple
 
-scoreboard players set *label_you_are_at_lobby lobby_sidebar 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_red 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_orange 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_yellow 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_green 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_blue 10
-scoreboard players set *label_you_are_at_lobby lobby_sidebar_purple 10
+scoreboard players set *label_you_are_at_lobby lobby_sidebar 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_red 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_orange 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_yellow 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_green 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_blue 2147483647
+scoreboard players set *label_you_are_at_lobby lobby_sidebar_purple 2147483647
 
-scoreboard players set *label_blank0 lobby_sidebar 9
-scoreboard players set *label_blank0 lobby_sidebar_red 9
-scoreboard players set *label_blank0 lobby_sidebar_orange 9
-scoreboard players set *label_blank0 lobby_sidebar_yellow 9
-scoreboard players set *label_blank0 lobby_sidebar_green 9
-scoreboard players set *label_blank0 lobby_sidebar_blue 9
-scoreboard players set *label_blank0 lobby_sidebar_purple 9
+scoreboard players set *label_blank0 lobby_sidebar 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_red 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_orange 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_yellow 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_green 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_blue 2147483646
+scoreboard players set *label_blank0 lobby_sidebar_purple 2147483646
 
-scoreboard players set *label_building_turns lobby_sidebar 8
-scoreboard players set *label_building_turns lobby_sidebar_red 8
-scoreboard players set *label_building_turns lobby_sidebar_orange 8
-scoreboard players set *label_building_turns lobby_sidebar_yellow 8
-scoreboard players set *label_building_turns lobby_sidebar_green 8
-scoreboard players set *label_building_turns lobby_sidebar_blue 8
-scoreboard players set *label_building_turns lobby_sidebar_purple 8
+scoreboard players set *label_building_turns lobby_sidebar 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_red 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_orange 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_yellow 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_green 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_blue 2147483645
+scoreboard players set *label_building_turns lobby_sidebar_purple 2147483645
 
-scoreboard players set *label_redstone_turns lobby_sidebar 7
-scoreboard players set *label_redstone_turns lobby_sidebar_red 7
-scoreboard players set *label_redstone_turns lobby_sidebar_orange 7
-scoreboard players set *label_redstone_turns lobby_sidebar_yellow 7
-scoreboard players set *label_redstone_turns lobby_sidebar_green 7
-scoreboard players set *label_redstone_turns lobby_sidebar_blue 7
-scoreboard players set *label_redstone_turns lobby_sidebar_purple 7
+scoreboard players set *label_redstone_turns lobby_sidebar 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_red 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_orange 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_yellow 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_green 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_blue 2147483644
+scoreboard players set *label_redstone_turns lobby_sidebar_purple 2147483644
 
-scoreboard players set *label_blank1 lobby_sidebar 6
-scoreboard players set *label_blank1 lobby_sidebar_red 6
-scoreboard players set *label_blank1 lobby_sidebar_orange 6
-scoreboard players set *label_blank1 lobby_sidebar_yellow 6
-scoreboard players set *label_blank1 lobby_sidebar_green 6
-scoreboard players set *label_blank1 lobby_sidebar_blue 6
-scoreboard players set *label_blank1 lobby_sidebar_purple 6
+scoreboard players set *label_blank1 lobby_sidebar 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_red 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_orange 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_yellow 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_green 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_blue 2147483643
+scoreboard players set *label_blank1 lobby_sidebar_purple 2147483643
 
-scoreboard players set *label_online_players lobby_sidebar 5
-scoreboard players set *label_online_players lobby_sidebar_red 5
-scoreboard players set *label_online_players lobby_sidebar_orange 5
-scoreboard players set *label_online_players lobby_sidebar_yellow 5
-scoreboard players set *label_online_players lobby_sidebar_green 5
-scoreboard players set *label_online_players lobby_sidebar_blue 5
-scoreboard players set *label_online_players lobby_sidebar_purple 5
+scoreboard players set *label_online_players lobby_sidebar 2147483642
+scoreboard players set *label_online_players lobby_sidebar_red 2147483642
+scoreboard players set *label_online_players lobby_sidebar_orange 2147483642
+scoreboard players set *label_online_players lobby_sidebar_yellow 2147483642
+scoreboard players set *label_online_players lobby_sidebar_green 2147483642
+scoreboard players set *label_online_players lobby_sidebar_blue 2147483642
+scoreboard players set *label_online_players lobby_sidebar_purple 2147483642
 
-scoreboard players set *label_ready_players lobby_sidebar 4
-scoreboard players set *label_ready_players lobby_sidebar_red 4
-scoreboard players set *label_ready_players lobby_sidebar_orange 4
-scoreboard players set *label_ready_players lobby_sidebar_yellow 4
-scoreboard players set *label_ready_players lobby_sidebar_green 4
-scoreboard players set *label_ready_players lobby_sidebar_blue 4
-scoreboard players set *label_ready_players lobby_sidebar_purple 4
+scoreboard players set *label_ready_players lobby_sidebar 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_red 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_orange 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_yellow 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_green 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_blue 2147483641
+scoreboard players set *label_ready_players lobby_sidebar_purple 2147483641
 
-scoreboard players set *label_blank2 lobby_sidebar 3
-scoreboard players set *label_blank2 lobby_sidebar_red 3
-scoreboard players set *label_blank2 lobby_sidebar_orange 3
-scoreboard players set *label_blank2 lobby_sidebar_yellow 3
-scoreboard players set *label_blank2 lobby_sidebar_green 3
-scoreboard players set *label_blank2 lobby_sidebar_blue 3
-scoreboard players set *label_blank2 lobby_sidebar_purple 3
+scoreboard players set *label_blank2 lobby_sidebar 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_red 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_orange 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_yellow 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_green 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_blue 2147483640
+scoreboard players set *label_blank2 lobby_sidebar_purple 2147483640
 
-scoreboard players set *label_my_team lobby_sidebar 2
-scoreboard players set *label_my_team lobby_sidebar_red 2
-scoreboard players set *label_my_team lobby_sidebar_orange 2
-scoreboard players set *label_my_team lobby_sidebar_yellow 2
-scoreboard players set *label_my_team lobby_sidebar_green 2
-scoreboard players set *label_my_team lobby_sidebar_blue 2
-scoreboard players set *label_my_team lobby_sidebar_purple 2
+scoreboard players set *label_my_team lobby_sidebar 2147483639
+scoreboard players set *label_my_team lobby_sidebar_red 2147483639
+scoreboard players set *label_my_team lobby_sidebar_orange 2147483639
+scoreboard players set *label_my_team lobby_sidebar_yellow 2147483639
+scoreboard players set *label_my_team lobby_sidebar_green 2147483639
+scoreboard players set *label_my_team lobby_sidebar_blue 2147483639
+scoreboard players set *label_my_team lobby_sidebar_purple 2147483639
 
-scoreboard players set *label_active_teams lobby_sidebar 1
-scoreboard players set *label_active_teams lobby_sidebar_red 1
-scoreboard players set *label_active_teams lobby_sidebar_orange 1
-scoreboard players set *label_active_teams lobby_sidebar_yellow 1
-scoreboard players set *label_active_teams lobby_sidebar_green 1
-scoreboard players set *label_active_teams lobby_sidebar_blue 1
-scoreboard players set *label_active_teams lobby_sidebar_purple 1
+scoreboard players set *label_active_teams lobby_sidebar 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_red 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_orange 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_yellow 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_green 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_blue 2147483638
+scoreboard players set *label_active_teams lobby_sidebar_purple 2147483638
+
+scoreboard players reset *label_blank3 lobby_sidebar
+scoreboard players reset *label_blank3 lobby_sidebar_red
+scoreboard players reset *label_blank3 lobby_sidebar_orange
+scoreboard players reset *label_blank3 lobby_sidebar_yellow
+scoreboard players reset *label_blank3 lobby_sidebar_green
+scoreboard players reset *label_blank3 lobby_sidebar_blue
+scoreboard players reset *label_blank3 lobby_sidebar_purple
+
+scoreboard players reset *label_red_team_score lobby_sidebar
+scoreboard players reset *label_orange_team_score lobby_sidebar
+scoreboard players reset *label_yellow_team_score lobby_sidebar
+scoreboard players reset *label_green_team_score lobby_sidebar
+scoreboard players reset *label_blue_team_score lobby_sidebar
+scoreboard players reset *label_purple_team_score lobby_sidebar
+
+scoreboard players reset *label_red_team_score lobby_sidebar_red
+scoreboard players reset *label_orange_team_score lobby_sidebar_red
+scoreboard players reset *label_yellow_team_score lobby_sidebar_red
+scoreboard players reset *label_green_team_score lobby_sidebar_red
+scoreboard players reset *label_blue_team_score lobby_sidebar_red
+scoreboard players reset *label_purple_team_score lobby_sidebar_red
+
+scoreboard players reset *label_red_team_score lobby_sidebar_orange
+scoreboard players reset *label_orange_team_score lobby_sidebar_orange
+scoreboard players reset *label_yellow_team_score lobby_sidebar_orange
+scoreboard players reset *label_green_team_score lobby_sidebar_orange
+scoreboard players reset *label_blue_team_score lobby_sidebar_orange
+scoreboard players reset *label_purple_team_score lobby_sidebar_orange
+
+scoreboard players reset *label_red_team_score lobby_sidebar_yellow
+scoreboard players reset *label_orange_team_score lobby_sidebar_yellow
+scoreboard players reset *label_yellow_team_score lobby_sidebar_yellow
+scoreboard players reset *label_green_team_score lobby_sidebar_yellow
+scoreboard players reset *label_blue_team_score lobby_sidebar_yellow
+scoreboard players reset *label_purple_team_score lobby_sidebar_yellow
+
+scoreboard players reset *label_red_team_score lobby_sidebar_green
+scoreboard players reset *label_orange_team_score lobby_sidebar_green
+scoreboard players reset *label_yellow_team_score lobby_sidebar_green
+scoreboard players reset *label_green_team_score lobby_sidebar_green
+scoreboard players reset *label_blue_team_score lobby_sidebar_green
+scoreboard players reset *label_purple_team_score lobby_sidebar_green
+
+scoreboard players reset *label_red_team_score lobby_sidebar_blue
+scoreboard players reset *label_orange_team_score lobby_sidebar_blue
+scoreboard players reset *label_yellow_team_score lobby_sidebar_blue
+scoreboard players reset *label_green_team_score lobby_sidebar_blue
+scoreboard players reset *label_blue_team_score lobby_sidebar_blue
+scoreboard players reset *label_purple_team_score lobby_sidebar_blue
+
+scoreboard players reset *label_red_team_score lobby_sidebar_purple
+scoreboard players reset *label_orange_team_score lobby_sidebar_purple
+scoreboard players reset *label_yellow_team_score lobby_sidebar_purple
+scoreboard players reset *label_green_team_score lobby_sidebar_purple
+scoreboard players reset *label_blue_team_score lobby_sidebar_purple
+scoreboard players reset *label_purple_team_score lobby_sidebar_purple
 
 scoreboard players display numberformat *label_you_are_at_lobby lobby_sidebar blank
 scoreboard players display numberformat *label_you_are_at_lobby lobby_sidebar_red blank

@@ -191,6 +191,75 @@ execute if score #active_teams temp matches 3.. run schedule function builder_an
 time set day
 weather clear
 
+scoreboard players set *label_blank3 lobby_sidebar 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_red 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_orange 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_yellow 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_green 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_blue 2147483637
+scoreboard players set *label_blank3 lobby_sidebar_purple 2147483637
+
+scoreboard players display numberformat *label_blank3 lobby_sidebar blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_red blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_orange blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_yellow blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_green blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_blue blank
+scoreboard players display numberformat *label_blank3 lobby_sidebar_purple blank
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_red = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_red = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_red = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_red = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_red = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_red = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_orange = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_orange = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_orange = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_orange = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_orange = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_orange = #purple total_score
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_yellow = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_yellow = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_yellow = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_yellow = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_yellow = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_yellow = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_green = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_green = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_green = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_green = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_green = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_green = #purple total_score
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_blue = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_blue = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_blue = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_blue = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_blue = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_blue = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score lobby_sidebar_purple = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score lobby_sidebar_purple = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score lobby_sidebar_purple = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score lobby_sidebar_purple = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_purple = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_purple = #purple total_score
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "REWARDING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "REWARDING"

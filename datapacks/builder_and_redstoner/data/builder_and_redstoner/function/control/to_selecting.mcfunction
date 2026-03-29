@@ -172,88 +172,181 @@ scoreboard objectives setdisplay sidebar.team.green gaming_sidebar_green
 scoreboard objectives setdisplay sidebar.team.blue gaming_sidebar_blue
 scoreboard objectives setdisplay sidebar.team.dark_purple gaming_sidebar_purple
 
-scoreboard players set *label_you_are_at gaming_sidebar 10
-scoreboard players set *label_you_are_at gaming_sidebar_red 10
-scoreboard players set *label_you_are_at gaming_sidebar_orange 10
-scoreboard players set *label_you_are_at gaming_sidebar_yellow 10
-scoreboard players set *label_you_are_at gaming_sidebar_green 10
-scoreboard players set *label_you_are_at gaming_sidebar_blue 10
-scoreboard players set *label_you_are_at gaming_sidebar_purple 10
+scoreboard players set *label_current_turn gaming_sidebar 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_red 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_orange 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_yellow 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_green 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_blue 2147483647
+scoreboard players set *label_current_turn gaming_sidebar_purple 2147483647
 
-scoreboard players set *label_blank0 gaming_sidebar 9
-scoreboard players set *label_blank0 gaming_sidebar_red 9
-scoreboard players set *label_blank0 gaming_sidebar_orange 9
-scoreboard players set *label_blank0 gaming_sidebar_yellow 9
-scoreboard players set *label_blank0 gaming_sidebar_green 9
-scoreboard players set *label_blank0 gaming_sidebar_blue 9
-scoreboard players set *label_blank0 gaming_sidebar_purple 9
+scoreboard players set *label_turn_type gaming_sidebar 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_red 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_orange 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_yellow 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_green 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_blue 2147483646
+scoreboard players set *label_turn_type gaming_sidebar_purple 2147483646
 
-scoreboard players set *label_current_turn gaming_sidebar 8
-scoreboard players set *label_current_turn gaming_sidebar_red 8
-scoreboard players set *label_current_turn gaming_sidebar_orange 8
-scoreboard players set *label_current_turn gaming_sidebar_yellow 8
-scoreboard players set *label_current_turn gaming_sidebar_green 8
-scoreboard players set *label_current_turn gaming_sidebar_blue 8
-scoreboard players set *label_current_turn gaming_sidebar_purple 8
+scoreboard players set *label_blank1 gaming_sidebar 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_red 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_orange 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_yellow 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_green 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_blue 2147483645
+scoreboard players set *label_blank1 gaming_sidebar_purple 2147483645
 
-scoreboard players set *label_turn_type gaming_sidebar 7
-scoreboard players set *label_turn_type gaming_sidebar_red 7
-scoreboard players set *label_turn_type gaming_sidebar_orange 7
-scoreboard players set *label_turn_type gaming_sidebar_yellow 7
-scoreboard players set *label_turn_type gaming_sidebar_green 7
-scoreboard players set *label_turn_type gaming_sidebar_blue 7
-scoreboard players set *label_turn_type gaming_sidebar_purple 7
+scoreboard players set *label_selected gaming_sidebar 2147483644
+scoreboard players set *label_selected gaming_sidebar_red 2147483644
+scoreboard players set *label_selected gaming_sidebar_orange 2147483644
+scoreboard players set *label_selected gaming_sidebar_yellow 2147483644
+scoreboard players set *label_selected gaming_sidebar_green 2147483644
+scoreboard players set *label_selected gaming_sidebar_blue 2147483644
+scoreboard players set *label_selected gaming_sidebar_purple 2147483644
 
-scoreboard players set *label_blank1 gaming_sidebar 6
-scoreboard players set *label_blank1 gaming_sidebar_red 6
-scoreboard players set *label_blank1 gaming_sidebar_orange 6
-scoreboard players set *label_blank1 gaming_sidebar_yellow 6
-scoreboard players set *label_blank1 gaming_sidebar_green 6
-scoreboard players set *label_blank1 gaming_sidebar_blue 6
-scoreboard players set *label_blank1 gaming_sidebar_purple 6
+scoreboard players set *label_time_limit gaming_sidebar 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_red 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_orange 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_yellow 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_green 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_blue 2147483643
+scoreboard players set *label_time_limit gaming_sidebar_purple 2147483643
 
-scoreboard players set *label_selected gaming_sidebar 5
-scoreboard players set *label_selected gaming_sidebar_red 5
-scoreboard players set *label_selected gaming_sidebar_orange 5
-scoreboard players set *label_selected gaming_sidebar_yellow 5
-scoreboard players set *label_selected gaming_sidebar_green 5
-scoreboard players set *label_selected gaming_sidebar_blue 5
-scoreboard players set *label_selected gaming_sidebar_purple 5
+scoreboard players set *label_blank2 gaming_sidebar 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_red 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_orange 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_yellow 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_green 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_blue 2147483642
+scoreboard players set *label_blank2 gaming_sidebar_purple 2147483642
 
-scoreboard players set *label_time_limit gaming_sidebar 4
-scoreboard players set *label_time_limit gaming_sidebar_red 4
-scoreboard players set *label_time_limit gaming_sidebar_orange 4
-scoreboard players set *label_time_limit gaming_sidebar_yellow 4
-scoreboard players set *label_time_limit gaming_sidebar_green 4
-scoreboard players set *label_time_limit gaming_sidebar_blue 4
-scoreboard players set *label_time_limit gaming_sidebar_purple 4
+scoreboard players set *label_my_team gaming_sidebar 2147483641
+scoreboard players set *label_my_team gaming_sidebar_red 2147483641
+scoreboard players set *label_my_team gaming_sidebar_orange 2147483641
+scoreboard players set *label_my_team gaming_sidebar_yellow 2147483641
+scoreboard players set *label_my_team gaming_sidebar_green 2147483641
+scoreboard players set *label_my_team gaming_sidebar_blue 2147483641
+scoreboard players set *label_my_team gaming_sidebar_purple 2147483641
 
-scoreboard players set *label_blank2 gaming_sidebar 3
-scoreboard players set *label_blank2 gaming_sidebar_red 3
-scoreboard players set *label_blank2 gaming_sidebar_orange 3
-scoreboard players set *label_blank2 gaming_sidebar_yellow 3
-scoreboard players set *label_blank2 gaming_sidebar_green 3
-scoreboard players set *label_blank2 gaming_sidebar_blue 3
-scoreboard players set *label_blank2 gaming_sidebar_purple 3
+scoreboard players set *label_active_teams gaming_sidebar 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_red 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_orange 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_yellow 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_green 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_blue 2147483640
+scoreboard players set *label_active_teams gaming_sidebar_purple 2147483640
 
-scoreboard players set *label_my_team gaming_sidebar 2
-scoreboard players set *label_my_team gaming_sidebar_red 2
-scoreboard players set *label_my_team gaming_sidebar_orange 2
-scoreboard players set *label_my_team gaming_sidebar_yellow 2
-scoreboard players set *label_my_team gaming_sidebar_green 2
-scoreboard players set *label_my_team gaming_sidebar_blue 2
-scoreboard players set *label_my_team gaming_sidebar_purple 2
+scoreboard players set *label_blank3 gaming_sidebar 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_red 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_orange 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_yellow 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_green 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_blue 2147483639
+scoreboard players set *label_blank3 gaming_sidebar_purple 2147483639
 
-scoreboard players set *label_active_teams gaming_sidebar 1
-scoreboard players set *label_active_teams gaming_sidebar_red 1
-scoreboard players set *label_active_teams gaming_sidebar_orange 1
-scoreboard players set *label_active_teams gaming_sidebar_yellow 1
-scoreboard players set *label_active_teams gaming_sidebar_green 1
-scoreboard players set *label_active_teams gaming_sidebar_blue 1
-scoreboard players set *label_active_teams gaming_sidebar_purple 1
+scoreboard players reset *label_red_team_score gaming_sidebar
+scoreboard players reset *label_orange_team_score gaming_sidebar
+scoreboard players reset *label_yellow_team_score gaming_sidebar
+scoreboard players reset *label_green_team_score gaming_sidebar
+scoreboard players reset *label_blue_team_score gaming_sidebar
+scoreboard players reset *label_purple_team_score gaming_sidebar
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar blank
+scoreboard players reset *label_red_team_score gaming_sidebar_red
+scoreboard players reset *label_orange_team_score gaming_sidebar_red
+scoreboard players reset *label_yellow_team_score gaming_sidebar_red
+scoreboard players reset *label_green_team_score gaming_sidebar_red
+scoreboard players reset *label_blue_team_score gaming_sidebar_red
+scoreboard players reset *label_purple_team_score gaming_sidebar_red
+
+scoreboard players reset *label_red_team_score gaming_sidebar_orange
+scoreboard players reset *label_orange_team_score gaming_sidebar_orange
+scoreboard players reset *label_yellow_team_score gaming_sidebar_orange
+scoreboard players reset *label_green_team_score gaming_sidebar_orange
+scoreboard players reset *label_blue_team_score gaming_sidebar_orange
+scoreboard players reset *label_purple_team_score gaming_sidebar_orange
+
+scoreboard players reset *label_red_team_score gaming_sidebar_yellow
+scoreboard players reset *label_orange_team_score gaming_sidebar_yellow
+scoreboard players reset *label_yellow_team_score gaming_sidebar_yellow
+scoreboard players reset *label_green_team_score gaming_sidebar_yellow
+scoreboard players reset *label_blue_team_score gaming_sidebar_yellow
+scoreboard players reset *label_purple_team_score gaming_sidebar_yellow
+
+scoreboard players reset *label_red_team_score gaming_sidebar_green
+scoreboard players reset *label_orange_team_score gaming_sidebar_green
+scoreboard players reset *label_yellow_team_score gaming_sidebar_green
+scoreboard players reset *label_green_team_score gaming_sidebar_green
+scoreboard players reset *label_blue_team_score gaming_sidebar_green
+scoreboard players reset *label_purple_team_score gaming_sidebar_green
+
+scoreboard players reset *label_red_team_score gaming_sidebar_blue
+scoreboard players reset *label_orange_team_score gaming_sidebar_blue
+scoreboard players reset *label_yellow_team_score gaming_sidebar_blue
+scoreboard players reset *label_green_team_score gaming_sidebar_blue
+scoreboard players reset *label_blue_team_score gaming_sidebar_blue
+scoreboard players reset *label_purple_team_score gaming_sidebar_blue
+
+scoreboard players reset *label_red_team_score gaming_sidebar_purple
+scoreboard players reset *label_orange_team_score gaming_sidebar_purple
+scoreboard players reset *label_yellow_team_score gaming_sidebar_purple
+scoreboard players reset *label_green_team_score gaming_sidebar_purple
+scoreboard players reset *label_blue_team_score gaming_sidebar_purple
+scoreboard players reset *label_purple_team_score gaming_sidebar_purple
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_red = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_red = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_red = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_red = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_red = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_red = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_orange = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_orange = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_orange = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_orange = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_orange = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_orange = #purple total_score
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_yellow = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_yellow = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_yellow = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_yellow = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_yellow = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_yellow = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_green = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_green = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_green = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_green = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_green = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_green = #purple total_score
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_blue = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_blue = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_blue = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_blue = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_blue = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_blue = #purple total_score
+
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players operation *label_red_team_score gaming_sidebar_purple = #red total_score
+execute if score #orange_team_count player_count matches 1.. run scoreboard players operation *label_orange_team_score gaming_sidebar_purple = #orange total_score
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players operation *label_yellow_team_score gaming_sidebar_purple = #yellow total_score
+execute if score #green_team_count player_count matches 1.. run scoreboard players operation *label_green_team_score gaming_sidebar_purple = #green total_score
+execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score gaming_sidebar_purple = #blue total_score
+execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score gaming_sidebar_purple = #purple total_score
+
 scoreboard players display numberformat *label_current_turn gaming_sidebar blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar blank
@@ -262,9 +355,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar blank
 scoreboard players display numberformat *label_blank2 gaming_sidebar blank
 scoreboard players display numberformat *label_my_team gaming_sidebar blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_red blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_red blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_red blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_red blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_red blank
@@ -273,9 +365,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_red bla
 scoreboard players display numberformat *label_blank2 gaming_sidebar_red blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_red blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_red blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_red blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_orange blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_orange blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_orange blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_orange blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_orange blank
@@ -284,9 +375,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_orange 
 scoreboard players display numberformat *label_blank2 gaming_sidebar_orange blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_orange blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_orange blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_orange blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_yellow blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_yellow blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_yellow blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_yellow blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_yellow blank
@@ -295,9 +385,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_yellow 
 scoreboard players display numberformat *label_blank2 gaming_sidebar_yellow blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_yellow blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_yellow blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_yellow blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_green blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_green blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_green blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_green blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_green blank
@@ -306,9 +395,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_green b
 scoreboard players display numberformat *label_blank2 gaming_sidebar_green blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_green blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_green blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_green blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_blue blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_blue blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_blue blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_blue blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_blue blank
@@ -317,9 +405,8 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_blue bl
 scoreboard players display numberformat *label_blank2 gaming_sidebar_blue blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_blue blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_blue blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_blue blank
 
-scoreboard players display numberformat *label_you_are_at gaming_sidebar_purple blank
-scoreboard players display numberformat *label_blank0 gaming_sidebar_purple blank
 scoreboard players display numberformat *label_current_turn gaming_sidebar_purple blank
 scoreboard players display numberformat *label_turn_type gaming_sidebar_purple blank
 scoreboard players display numberformat *label_blank1 gaming_sidebar_purple blank
@@ -328,6 +415,7 @@ scoreboard players display numberformat *label_time_limit gaming_sidebar_purple 
 scoreboard players display numberformat *label_blank2 gaming_sidebar_purple blank
 scoreboard players display numberformat *label_my_team gaming_sidebar_purple blank
 scoreboard players display numberformat *label_active_teams gaming_sidebar_purple blank
+scoreboard players display numberformat *label_blank3 gaming_sidebar_purple blank
 
 # teleport players to selecting area
 execute \

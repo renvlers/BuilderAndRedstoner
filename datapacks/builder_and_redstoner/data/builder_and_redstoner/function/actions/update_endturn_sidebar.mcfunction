@@ -1,96 +1,3 @@
-scoreboard players display name *label_you_are_at gaming_sidebar [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_red [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_orange [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_yellow [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_green [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_blue [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-scoreboard players display name *label_you_are_at gaming_sidebar_purple [\ 
-    { \
-        text: "我的位置：", \
-        color: "#35ECE2", \
-        bold: true \
-    }, \
-    { \
-        text: "游戏区", \
-        color: "#CCFF99", \
-        bold: true \
-    } \
-]
-
-scoreboard players display name *label_blank0 gaming_sidebar ""
-scoreboard players display name *label_blank0 gaming_sidebar_red ""
-scoreboard players display name *label_blank0 gaming_sidebar_orange ""
-scoreboard players display name *label_blank0 gaming_sidebar_yellow ""
-scoreboard players display name *label_blank0 gaming_sidebar_green ""
-scoreboard players display name *label_blank0 gaming_sidebar_blue ""
-scoreboard players display name *label_blank0 gaming_sidebar_purple ""
-
 scoreboard players display name *label_current_turn gaming_sidebar [ \
     { \
         text: "当前轮次：", \
@@ -996,3 +903,107 @@ scoreboard players display name *label_active_teams gaming_sidebar_purple [ \
         bold: true \
     } \
 ]
+
+scoreboard players display name *label_blank3 gaming_sidebar ""
+scoreboard players display name *label_blank3 gaming_sidebar_red ""
+scoreboard players display name *label_blank3 gaming_sidebar_orange ""
+scoreboard players display name *label_blank3 gaming_sidebar_yellow ""
+scoreboard players display name *label_blank3 gaming_sidebar_green ""
+scoreboard players display name *label_blank3 gaming_sidebar_blue ""
+scoreboard players display name *label_blank3 gaming_sidebar_purple ""
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_red { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_orange { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_yellow { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_green { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_blue { text: "红队得分", color: "red", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display name *label_red_team_score gaming_sidebar_purple { text: "红队得分", color: "red", bold: true }
+
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar { text: "橙队得分", color: "gold", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_red { text: "橙队得分", color: "gold", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_orange { text: "橙队得分", color: "gold", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_yellow { text: "橙队得分", color: "gold", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_green { text: "橙队得分", color: "gold", bold: true }
+execute if score #orangeTeam_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_blue { text: "橙队得分", color: "gold", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display name *label_orange_team_score gaming_sidebar_purple { text: "橙队得分", color: "gold", bold: true }
+
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_red { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_orange { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_yellow { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_green { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_blue { text: "黄队得分", color: "yellow", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display name *label_yellow_team_score gaming_sidebar_purple { text: "黄队得分", color: "yellow", bold: true }
+
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_red { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_orange { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_yellow { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_green { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_blue { text: "绿队得分", color: "green", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display name *label_green_team_score gaming_sidebar_purple { text: "绿队得分", color: "green", bold: true }
+
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_red { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_orange { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_yellow { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_green { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_blue { text: "蓝队得分", color: "blue", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display name *label_blue_team_score gaming_sidebar_purple { text: "蓝队得分", color: "blue", bold: true }
+
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_red { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_orange { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_yellow { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_green { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_blue { text: "紫队得分", color: "dark_purple", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display name *label_purple_team_score gaming_sidebar_purple { text: "紫队得分", color: "dark_purple", bold: true }
+
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #red_team_count player_count matches 1.. run scoreboard players display numberformat *label_red_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#red", objective: "total_score"}, color: "#CCFF99", bold: true }
+
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #orange_team_count player_count matches 1.. run scoreboard players display numberformat *label_orange_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#orange", objective: "total_score"}, color: "#CCFF99", bold: true }
+
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #yellow_team_count player_count matches 1.. run scoreboard players display numberformat *label_yellow_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#yellow", objective: "total_score"}, color: "#CCFF99", bold: true }
+
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #green_team_count player_count matches 1.. run scoreboard players display numberformat *label_green_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#green", objective: "total_score"}, color: "#CCFF99", bold: true }
+
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #blue_team_count player_count matches 1.. run scoreboard players display numberformat *label_blue_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#blue", objective: "total_score"}, color: "#CCFF99", bold: true }
+
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_red fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_orange fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_yellow fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_green fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_blue fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
+execute if score #purple_team_count player_count matches 1.. run scoreboard players display numberformat *label_purple_team_score gaming_sidebar_purple fixed { type: "score", score: {name: "#purple", objective: "total_score"}, color: "#CCFF99", bold: true }
