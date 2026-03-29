@@ -519,7 +519,7 @@ title @a[sort=arbitrary, team=!] title [ \
 
 function builder_and_redstoner:actions/start_turn_time_left
 
-clear @a[team=!, sort=arbitrary]
+clear @a[sort=arbitrary]
 
 scoreboard players reset @a right_check
 
