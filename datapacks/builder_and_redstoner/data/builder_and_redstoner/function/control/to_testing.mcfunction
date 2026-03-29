@@ -29,4 +29,6 @@ scoreboard players reset #select_test_cases_counter counter
 function builder_and_redstoner:actions/select_test_cases
 function builder_and_redstoner:actions/start_testing
 
+scoreboard players reset @a right_check
+
 execute unless data storage builder_and_redstoner:config { config: { status: "TESTING" } } run data modify storage builder_and_redstoner:config config.status set value "TESTING"

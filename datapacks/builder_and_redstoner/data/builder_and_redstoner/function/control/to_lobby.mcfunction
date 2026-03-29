@@ -259,6 +259,8 @@ execute as @a run attribute @s minecraft:attack_damage base set 1
 
 loot replace entity @a enderchest.0 loot builder_and_redstoner:blocks/get_my_head
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "LOBBY"}} run \
         data modify storage builder_and_redstoner:config config.status set value "LOBBY"

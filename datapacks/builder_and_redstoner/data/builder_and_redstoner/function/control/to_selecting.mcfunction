@@ -521,6 +521,8 @@ function builder_and_redstoner:actions/start_turn_time_left
 
 clear @a[team=!, sort=arbitrary]
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "SELECTING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "SELECTING"

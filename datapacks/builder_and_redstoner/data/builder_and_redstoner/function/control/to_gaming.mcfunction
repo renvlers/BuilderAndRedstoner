@@ -80,6 +80,8 @@ data modify entity @n[tag=memory_entity] data.time_and_weather.green set value {
 data modify entity @n[tag=memory_entity] data.time_and_weather.blue set value {time:"noon",weather:"clear"}
 data modify entity @n[tag=memory_entity] data.time_and_weather.purple set value {time:"noon",weather:"clear"}
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "GAMING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "GAMING"

@@ -260,6 +260,8 @@ execute if score #green_team_count player_count matches 1.. run scoreboard playe
 execute if score #blue_team_count player_count matches 1.. run scoreboard players operation *label_blue_team_score lobby_sidebar_purple = #blue total_score
 execute if score #purple_team_count player_count matches 1.. run scoreboard players operation *label_purple_team_score lobby_sidebar_purple = #purple total_score
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "REWARDING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "REWARDING"

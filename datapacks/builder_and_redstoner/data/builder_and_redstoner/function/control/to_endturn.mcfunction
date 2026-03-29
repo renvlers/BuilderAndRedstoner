@@ -28,6 +28,8 @@ title @a[sort=arbitrary,team=!] title { \
 
 function builder_and_redstoner:actions/leave_endturn
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "ENDTURN"}} run \
         data modify storage builder_and_redstoner:config config.status set value "ENDTURN"

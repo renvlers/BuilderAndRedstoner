@@ -32,6 +32,8 @@ function builder_and_redstoner:actions/start_voting
 execute as @e[sort=arbitrary,tag=click_detector, type=interaction] run data remove entity @s attack
 execute as @e[sort=arbitrary,tag=click_detector, type=interaction] run data remove entity @s interaction
 
+scoreboard players reset @a right_check
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "VOTING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "VOTING"
