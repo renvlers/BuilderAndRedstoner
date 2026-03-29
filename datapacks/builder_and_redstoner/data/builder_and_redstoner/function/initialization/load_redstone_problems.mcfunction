@@ -1,7 +1,7 @@
 data remove storage builder_and_redstoner:problems problems
 
 data merge storage builder_and_redstoner:problems { \
-    max_idx: 9, \
+    max_idx: 13, \
 }
 
 function builder_and_redstoner:redstone_problems/utils/init_scoreboard with storage builder_and_redstoner:problems
