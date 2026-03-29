@@ -31,4 +31,6 @@ function builder_and_redstoner:actions/start_testing
 
 scoreboard players reset @a right_check
 
+execute as @a[team=, sort=arbitrary] at @s run spectate @r[team=!, sort=arbitrary, limit=1]
+
 execute unless data storage builder_and_redstoner:config { config: { status: "TESTING" } } run data modify storage builder_and_redstoner:config config.status set value "TESTING"

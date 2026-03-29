@@ -34,6 +34,8 @@ execute as @e[sort=arbitrary,tag=click_detector, type=interaction] run data remo
 
 scoreboard players reset @a right_check
 
+execute as @a[team=, sort=arbitrary] at @s run spectate @r[team=!, sort=arbitrary, limit=1]
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "VOTING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "VOTING"

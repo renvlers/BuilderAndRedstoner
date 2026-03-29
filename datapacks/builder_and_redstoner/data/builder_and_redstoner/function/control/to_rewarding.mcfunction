@@ -262,6 +262,8 @@ execute if score #purple_team_count player_count matches 1.. run scoreboard play
 
 scoreboard players reset @a right_check
 
+execute as @a[team=, sort=arbitrary] at @s run spectate @r[team=!, sort=arbitrary, limit=1]
+
 execute \
     unless data storage builder_and_redstoner:config {config: {status: "REWARDING"}} run \
         data modify storage builder_and_redstoner:config config.status set value "REWARDING"
