@@ -4,7 +4,7 @@ execute if score #turn_type temp matches 0 run title @a[team=!] subtitle { \
     bold: true \
 }
 execute if score #turn_type temp matches 1 run title @a[team=!] subtitle { \
-    text: "请在 10 分钟内完成你的作品", \
+    text: "请在 20 分钟内完成你的作品", \
     color: "gold", \
     bold: true \
 }

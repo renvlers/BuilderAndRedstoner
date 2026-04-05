@@ -1,4 +1,4 @@
-execute unless score #timer_redstone counter matches 1..599 run scoreboard players set #timer_redstone counter 600
+execute unless score #timer_redstone counter matches 1..1199 run scoreboard players set #timer_redstone counter 1200
 
 execute if score #timer_redstone counter matches 1..10 run title @a[team=!, sort=arbitrary] actionbar [ \
     { \
@@ -26,5 +26,5 @@ execute if score #timer_redstone counter matches 1..10 run playsound minecraft:b
 
 scoreboard players remove #timer_redstone counter 1
 
-execute if score #timer_redstone counter matches 1..599 run schedule function builder_and_redstoner:timers/timer_redstone 1s
+execute if score #timer_redstone counter matches 1..1199 run schedule function builder_and_redstoner:timers/timer_redstone 1s
 execute if score #timer_redstone counter matches 0 run schedule function builder_and_redstoner:control/to_endturn 1s
