@@ -17,7 +17,13 @@ execute if score #turn_type temp matches 0 run title @a[team=!, sort=arbitrary] 
 
 execute if score #turn_type temp matches 1 run title @a[team=!, sort=arbitrary] actionbar [ \
     { \
-        text: "手持物品右键选择红石问题，丢弃物品以查看问题详情", \
+        text: "手持物品右键选择红石问题，按 ", \
+        color: "red", \
+        bold: true \
+    }, \
+    {type: "keybind", keybind: key.drop, color: "yellow", bold: true}, \
+    { \
+        text: " 键查看问题详情", \
         color: "red", \
         bold: true \
     } \
