@@ -4,24 +4,20 @@ execute \
         execute if entity @a[scores={ready=1}]
 
 # count active teams
-execute \
-    store result score #red_team_count player_count run \
-        team list red
-execute \
-    store result score #orange_team_count player_count run \
-        team list orange
-execute \
-    store result score #yellow_team_count player_count run \
-        team list yellow
-execute \
-    store result score #green_team_count player_count run \
-        team list green
-execute \
-    store result score #blue_team_count player_count run \
-        team list blue
-execute \
-    store result score #purple_team_count player_count run \
-        team list purple
+scoreboard players set #red_team_count player_count 0
+scoreboard players set #orange_team_count player_count 0
+scoreboard players set #yellow_team_count player_count 0
+scoreboard players set #green_team_count player_count 0
+scoreboard players set #blue_team_count player_count 0
+scoreboard players set #purple_team_count player_count 0
+
+execute as @a[team=red] run scoreboard players add #red_team_count player_count 1
+execute as @a[team=orange] run scoreboard players add #orange_team_count player_count 1
+execute as @a[team=yellow] run scoreboard players add #yellow_team_count player_count 1
+execute as @a[team=green] run scoreboard players add #green_team_count player_count 1
+execute as @a[team=blue] run scoreboard players add #blue_team_count player_count 1
+execute as @a[team=purple] run scoreboard players add #purple_team_count player_count 1
+
 scoreboard players set #active_teams temp 0
 execute \
     if score #red_team_count player_count matches 1.. run \
