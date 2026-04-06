@@ -60,7 +60,7 @@ execute if score @s right_check matches 1.. if items entity @s weapon.mainhand w
 execute if score @s right_check matches 1.. if items entity @s weapon.mainhand warped_fungus_on_a_stick[custom_data={theme: 4}, item_model=red_stained_glass_pane] run scoreboard players set @s selection 4
 execute if score @s right_check matches 1.. if items entity @s weapon.mainhand warped_fungus_on_a_stick[custom_data={theme: 4}, item_model=red_stained_glass_pane] run scoreboard players reset @s right_check
 
-execute if score @s right_check matches 1.. if items entity @s weapon.mainhand warped_fungus_on_a_stick[item_model=lime_stained_glass_pane] run scoreboard players reset @s selection
+execute if score @s right_check matches 1.. if items entity @s weapon.mainhand warped_fungus_on_a_stick[item_model=lime_stained_glass_pane] run scoreboard players reset @s right_check
 
 # update UI
 function builder_and_redstoner:actions/set_selecting_theme_or_problem_item
