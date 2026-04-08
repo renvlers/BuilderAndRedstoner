@@ -26,15 +26,6 @@
         },
         {
             "type": "minecraft:plain_message",
-            "contents": {
-                "text": "本地图为我的第一个原版开发作品，技术水平不高，制作比较简陋，还请见谅",
-                "color": "yellow",
-                "bold": false
-            },
-            "width": 400
-        },
-        {
-            "type": "minecraft:plain_message",
             "contents": [
                 {
                     "text": "【致谢】",
@@ -47,11 +38,10 @@
                     "bold": false
                 },
                 {
-                    "text": "\n\n感谢上海交通大学 Minecraft 社部分成员对游戏流程测试的参与：\nalex_the_noob114\nchui_xin",
+                    "text": "\n\n感谢上海交通大学 Minecraft 社部分成员对游戏流程测试的参与：\nalex_the_noob114\nchui_xin\ndisorder\nBBISNOTBBQ\nEnchantedMurphy\nlolnot123\nLpaper\nCrossLu\nDoublewestie\nThynemus\nvlmLPa",
                     "color": "green",
                     "bold": false
-                }
-                ,
+                },
                 {
                     "text": "\n\n感谢 WalkMan467 对的性能优化做出的贡献",
                     "color": "green",
