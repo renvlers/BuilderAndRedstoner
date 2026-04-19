@@ -19,6 +19,7 @@ $execute \
             }, \
             { \
                 type: "nbt", \
+                interpret: true, \
                 nbt: "data.selected_themes[$(current_selection)].name", \
                 storage: "builder_and_redstoner:memory", \
                 color: "green", \
@@ -35,6 +36,7 @@ $execute \
             }, \
             { \
                 type: "nbt", \
+                interpret: true, \
                 nbt: "data.selected_problems[$(current_selection)].title", \
                 storage: "builder_and_redstoner:memory", \
                 color: "red", \

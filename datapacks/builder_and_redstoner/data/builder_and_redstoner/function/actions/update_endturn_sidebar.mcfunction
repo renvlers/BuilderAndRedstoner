@@ -410,6 +410,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -425,6 +426,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -440,6 +442,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -455,6 +458,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -470,6 +474,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -485,6 +490,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -500,6 +506,7 @@ $execute if score #turn_type temp matches 0 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_themes[$(current_selection)].name", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -516,6 +523,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -531,6 +539,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -546,6 +555,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -561,6 +571,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -576,6 +587,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -591,6 +603,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
@@ -606,6 +619,7 @@ $execute if score #turn_type temp matches 1 run \
         }, \
         { \
             type: "nbt", \
+            interpret: true, \
             nbt: "data.selected_problems[$(current_selection)].title", \
             storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \

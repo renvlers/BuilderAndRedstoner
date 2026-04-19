@@ -310,6 +310,7 @@ $scoreboard players display name *label_selected gaming_sidebar [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -324,6 +325,7 @@ $scoreboard players display name *label_selected gaming_sidebar_red [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -338,6 +340,7 @@ $scoreboard players display name *label_selected gaming_sidebar_orange [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -352,6 +355,7 @@ $scoreboard players display name *label_selected gaming_sidebar_yellow [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -366,6 +370,7 @@ $scoreboard players display name *label_selected gaming_sidebar_green [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -380,6 +385,7 @@ $scoreboard players display name *label_selected gaming_sidebar_blue [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
@@ -394,6 +400,7 @@ $scoreboard players display name *label_selected gaming_sidebar_purple [ \
     }, \
     { \
         type: "nbt", \
+        interpret: true, \
         nbt: "data.selected_problems[$(current_selection)].title", \
         storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
