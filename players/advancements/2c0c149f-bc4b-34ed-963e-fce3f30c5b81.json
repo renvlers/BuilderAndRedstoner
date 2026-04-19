@@ -5,12 +5,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/gray_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2026-03-02 18:39:52 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/cherry_planks": {
     "criteria": {
       "has_log": "2026-03-02 18:39:52 +0800"
@@ -23,6 +17,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_stained_glass_pane": {
+    "criteria": {
+      "has_glass": "2026-03-02 18:39:52 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/charcoal": {
     "criteria": {
       "has_log": "2026-03-02 18:39:52 +0800"
@@ -31,9 +31,16 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:jungle": "2026-03-02 18:39:53 +0800"
+      "minecraft:jungle": "2026-03-02 18:39:53 +0800",
+      "minecraft:plains": "2026-04-19 15:08:29 +0800"
     },
     "done": false
   },
-  "DataVersion": 4671
+  "minecraft:recipes/misc/leaf_litter": {
+    "criteria": {
+      "has_leaves": "2026-04-19 15:16:54 +0800"
+    },
+    "done": true
+  },
+  "DataVersion": 4786
 }
