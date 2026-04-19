@@ -24,7 +24,7 @@ scoreboard players reset #teams_left counter
 execute as @e[sort=arbitrary,tag=click_detector, type=interaction] run data remove entity @s attack
 execute as @e[sort=arbitrary,tag=click_detector, type=interaction] run data remove entity @s interaction
 
-data remove entity @n[tag=memory_entity, type=marker] data.current_test_cases
+data remove storage builder_and_redstoner:memory data.current_test_cases
 scoreboard players reset #select_test_cases_counter counter
 function builder_and_redstoner:actions/select_test_cases
 function builder_and_redstoner:actions/start_testing

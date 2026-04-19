@@ -9,7 +9,7 @@ execute if score #purple rank matches 1 run execute as @a[team=purple] run funct
 
 execute if score #has_first temp matches 1.. run tellraw @a [ \
     {text:"恭喜", color:"#FAFC75", bold:true}, \
-    {type:"nbt",nbt:"data.first",separator:"",interpret:true,entity:"@n[tag=memory_entity,type=marker]"}, \
+    {type:"nbt",nbt:"data.first",separator:"",interpret:true,storage:"builder_and_redstoner:memory"}, \
     {text:"获得冠军\n", color:"#FAFC75", bold:true}, \
 ]
 

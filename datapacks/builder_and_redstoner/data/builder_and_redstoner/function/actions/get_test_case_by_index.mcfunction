@@ -1,2 +1,2 @@
-$execute unless data entity @n[tag=memory_entity, type=marker] { data: {current_test_cases: [ { id: $(current_test_case_index) } ] } } run scoreboard players remove #select_test_cases_counter counter 1
-$execute unless data entity @n[tag=memory_entity, type=marker] { data: {current_test_cases: [ { id: $(current_test_case_index) } ] } } run data modify entity @n[tag=memory_entity, type=marker] data.current_test_cases append value { id: $(current_test_case_index) }
+$execute unless data storage builder_and_redstoner:memory { data: {current_test_cases: [ { id: $(current_test_case_index) } ] } } run scoreboard players remove #select_test_cases_counter counter 1
+$execute unless data storage builder_and_redstoner:memory { data: {current_test_cases: [ { id: $(current_test_case_index) } ] } } run data modify storage builder_and_redstoner:memory data.current_test_cases append value { id: $(current_test_case_index) }

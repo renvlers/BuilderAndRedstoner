@@ -24,7 +24,7 @@ title @a[team=!] title [ \
     } \
 ]
 
-function builder_and_redstoner:actions/set_world_time_and_weather with entity @n[tag=memory_entity, type=marker] data.time_and_weather.yellow
+function builder_and_redstoner:actions/set_world_time_and_weather with storage builder_and_redstoner:memory data.time_and_weather.yellow
 
 scoreboard players reset @a[team=!] vote_player
 function builder_and_redstoner:timers/timer_voting

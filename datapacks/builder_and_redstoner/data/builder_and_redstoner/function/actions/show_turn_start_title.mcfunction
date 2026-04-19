@@ -20,7 +20,7 @@ $execute \
             { \
                 type: "nbt", \
                 nbt: "data.selected_themes[$(current_selection)].name", \
-                entity: "@n[tag=memory_entity, type=marker]", \
+                storage: "builder_and_redstoner:memory", \
                 color: "green", \
                 bold: true \
             } \
@@ -36,7 +36,7 @@ $execute \
             { \
                 type: "nbt", \
                 nbt: "data.selected_problems[$(current_selection)].title", \
-                entity: "@n[tag=memory_entity, type=marker]", \
+                storage: "builder_and_redstoner:memory", \
                 color: "red", \
                 bold: true \
             } \

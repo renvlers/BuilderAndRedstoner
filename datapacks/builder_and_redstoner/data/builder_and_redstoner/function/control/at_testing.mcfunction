@@ -27,7 +27,7 @@ execute if score #current_team temp matches 5 run function builder_and_redstoner
     team_color: "dark_purple" \
 }
 
-function builder_and_redstoner:actions/update_testing_sidebar with entity @n[tag=memory_entity, type=marker] data
+function builder_and_redstoner:actions/update_testing_sidebar with storage builder_and_redstoner:memory data
 
 execute as @a[team=, sort=arbitrary] at @s run function builder_and_redstoner:actions/spectate_a_player with entity @s EnderItems[0].components."minecraft:profile"
 

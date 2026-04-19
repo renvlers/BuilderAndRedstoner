@@ -4,7 +4,7 @@ execute if score #turn_type temp matches 0 as @a run function builder_and_redsto
 execute as @a at @s run function builder_and_redstoner:actions/teleport_click_detectors with entity @s EnderItems[0].components."minecraft:profile"
 clear @a
 
-function builder_and_redstoner:actions/update_endturn_sidebar with entity @n[tag=memory_entity, type=marker] data
+function builder_and_redstoner:actions/update_endturn_sidebar with storage builder_and_redstoner:memory data
 
 # teleport players out of area
 execute as @a[team=red] at @s unless entity @s[x=10206, y=61, z=-21, dx=38 , dy=37 , dz=38] run title @s actionbar { \

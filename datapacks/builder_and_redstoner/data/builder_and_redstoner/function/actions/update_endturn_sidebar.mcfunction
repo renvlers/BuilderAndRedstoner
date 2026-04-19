@@ -411,7 +411,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -426,7 +426,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -441,7 +441,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -456,7 +456,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -471,7 +471,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -486,7 +486,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -501,7 +501,7 @@ $execute if score #turn_type temp matches 0 run \
         { \
             type: "nbt", \
             nbt: "data.selected_themes[$(current_selection)].name", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -517,7 +517,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -532,7 +532,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -547,7 +547,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -562,7 +562,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -577,7 +577,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -592,7 +592,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \
@@ -607,7 +607,7 @@ $execute if score #turn_type temp matches 1 run \
         { \
             type: "nbt", \
             nbt: "data.selected_problems[$(current_selection)].title", \
-            entity: "@n[tag=memory_entity, type=marker]", \
+            storage: "builder_and_redstoner:memory", \
             color: "#EEFF99", \
             bold: true \
         } \

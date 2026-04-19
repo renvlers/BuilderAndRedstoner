@@ -28,15 +28,15 @@ execute \
 scoreboard players add #current_turn counter 1
 
 execute \
-    store result entity @n[tag=memory_entity, type=marker] data.bossbar_arguments.max_turns int 1 run \
+    store result storage builder_and_redstoner:memory data.bossbar_arguments.max_turns int 1 run \
         scoreboard players get #total_turns counter
 execute \
-    store result entity @n[tag=memory_entity, type=marker] data.bossbar_arguments.current_turn int 1 run \
+    store result storage builder_and_redstoner:memory data.bossbar_arguments.current_turn int 1 run \
         scoreboard players get #current_turn counter
 
 # set bossbar
-function builder_and_redstoner:actions/set_bossbar_max with entity @n[tag=memory_entity, type=marker] data.bossbar_arguments
-function builder_and_redstoner:actions/set_bossbar_value with entity @n[tag=memory_entity, type=marker] data.bossbar_arguments
+function builder_and_redstoner:actions/set_bossbar_max with storage builder_and_redstoner:memory data.bossbar_arguments
+function builder_and_redstoner:actions/set_bossbar_value with storage builder_and_redstoner:memory data.bossbar_arguments
 execute \
     if score #turn_type temp matches 0 run \
         bossbar set builder_and_redstoner:current_turn name [ \
@@ -137,8 +137,8 @@ execute \
 bossbar set builder_and_redstoner:current_turn visible true
 bossbar set builder_and_redstoner:current_turn players @a
 
-data remove entity @n[tag=memory_entity, type=marker] data.selected_themes
-data remove entity @n[tag=memory_entity, type=marker] data.selected_problems
+data remove storage builder_and_redstoner:memory data.selected_themes
+data remove storage builder_and_redstoner:memory data.selected_problems
 
 scoreboard players reset #prepared_themes temp
 scoreboard players reset #prepared_problems temp

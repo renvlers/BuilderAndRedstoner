@@ -9,7 +9,7 @@ execute if score #purple rank matches 2 run execute as @a[team=purple] run funct
 
 execute if score #has_second temp matches 1.. run tellraw @a [ \
     {text:"恭喜", color:"#FCFCFC", bold:true}, \
-    {type:"nbt",nbt:"data.second",separator:"",interpret:true,entity:"@n[tag=memory_entity,type=marker]"}, \
+    {type:"nbt",nbt:"data.second",separator:"",interpret:true,storage:"builder_and_redstoner:memory"}, \
     {text:"获得亚军", color:"#FCFCFC", bold:true}, \
 ]
 

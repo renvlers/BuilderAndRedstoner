@@ -1,4 +1,4 @@
-function builder_and_redstoner:initialization/create_memory_entity
+function builder_and_redstoner:initialization/reset_memory
 function builder_and_redstoner:initialization/create_util_scoreboards
 function builder_and_redstoner:initialization/create_teams
 function builder_and_redstoner:initialization/create_turn_bossbar

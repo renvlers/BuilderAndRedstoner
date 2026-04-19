@@ -311,7 +311,7 @@ $scoreboard players display name *label_selected gaming_sidebar [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -325,7 +325,7 @@ $scoreboard players display name *label_selected gaming_sidebar_red [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -339,7 +339,7 @@ $scoreboard players display name *label_selected gaming_sidebar_orange [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -353,7 +353,7 @@ $scoreboard players display name *label_selected gaming_sidebar_yellow [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -367,7 +367,7 @@ $scoreboard players display name *label_selected gaming_sidebar_green [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -381,7 +381,7 @@ $scoreboard players display name *label_selected gaming_sidebar_blue [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \
@@ -395,7 +395,7 @@ $scoreboard players display name *label_selected gaming_sidebar_purple [ \
     { \
         type: "nbt", \
         nbt: "data.selected_problems[$(current_selection)].title", \
-        entity: "@n[tag=memory_entity, type=marker]", \
+        storage: "builder_and_redstoner:memory", \
         color: "#EEFF99", \
         bold: true \
     } \

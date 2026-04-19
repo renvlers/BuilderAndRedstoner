@@ -36,7 +36,7 @@ execute as @e[tag=vote_calculator, type=marker] run scoreboard players operation
 execute as @e[tag=vote_calculator, type=marker] if score @s temp = #max_theme_or_problem temp run tag @s add winner_candidate
 execute \
     as @e[tag=winner_candidate, limit=1, sort=random] run \
-        data modify entity @n[tag=memory_entity, type=marker] data.current_selection set from entity @s data.id
+        data modify storage builder_and_redstoner:memory data.current_selection set from entity @s data.id
 
 # 7. 收尾清理
 kill @e[tag=vote_calculator]

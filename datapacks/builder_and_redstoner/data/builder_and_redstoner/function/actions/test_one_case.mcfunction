@@ -25,11 +25,11 @@ tellraw @a[team=!] [ \
     } \
 ]
 
-execute if score #current_test_case counter matches 0 run data modify entity @n[tag=memory_entity, type=marker] data.current_test_case_index set from entity @n[tag=memory_entity, type=marker] data.current_test_cases[0].id
-execute if score #current_test_case counter matches 1 run data modify entity @n[tag=memory_entity, type=marker] data.current_test_case_index set from entity @n[tag=memory_entity, type=marker] data.current_test_cases[1].id
-execute if score #current_test_case counter matches 2 run data modify entity @n[tag=memory_entity, type=marker] data.current_test_case_index set from entity @n[tag=memory_entity, type=marker] data.current_test_cases[2].id
-execute if score #current_test_case counter matches 3 run data modify entity @n[tag=memory_entity, type=marker] data.current_test_case_index set from entity @n[tag=memory_entity, type=marker] data.current_test_cases[3].id
-function builder_and_redstoner:actions/load_test_case with entity @n[tag=memory_entity, type=marker] data
+execute if score #current_test_case counter matches 0 run data modify storage builder_and_redstoner:memory data.current_test_case_index set from storage builder_and_redstoner:memory data.current_test_cases[0].id
+execute if score #current_test_case counter matches 1 run data modify storage builder_and_redstoner:memory data.current_test_case_index set from storage builder_and_redstoner:memory data.current_test_cases[1].id
+execute if score #current_test_case counter matches 2 run data modify storage builder_and_redstoner:memory data.current_test_case_index set from storage builder_and_redstoner:memory data.current_test_cases[2].id
+execute if score #current_test_case counter matches 3 run data modify storage builder_and_redstoner:memory data.current_test_case_index set from storage builder_and_redstoner:memory data.current_test_cases[3].id
+function builder_and_redstoner:actions/load_test_case with storage builder_and_redstoner:memory data
 function builder_and_redstoner:actions/load_test_pos
 
 function builder_and_redstoner:actions/set_input_blocks

@@ -38,7 +38,7 @@ execute \
 
 execute \
     if data storage builder_and_redstoner:config {config: {status: "GAMING"}} run \
-        function builder_and_redstoner:control/at_gaming with entity @n[tag=memory_entity, type=marker] data
+        function builder_and_redstoner:control/at_gaming with storage builder_and_redstoner:memory data
 
 execute \
     if data storage builder_and_redstoner:config {config: {status: "ENDTURN"}} run \

@@ -7,7 +7,7 @@ scoreboard players add #seconds_left temp 1
 scoreboard players operation #minutes_left temp /= #divider temp
 scoreboard players operation #seconds_left temp %= #divider temp
 
-function builder_and_redstoner:actions/update_gaming_sidebar with entity @n[tag=memory_entity, type=marker] data
+function builder_and_redstoner:actions/update_gaming_sidebar with storage builder_and_redstoner:memory data
 function builder_and_redstoner:actions/protect_gaming_area
 
 # teleport players out of area
@@ -106,7 +106,7 @@ execute if score #turn_type temp matches 0 as @a[team=!] at @s if score @s right
 execute if score #turn_type temp matches 0 as @a[team=!] if data entity @s {equipment: {offhand: {components: {"minecraft:custom_data": {type: "player_head_getter_book"}}}}} if data entity @s equipment.offhand.components."minecraft:writable_book_content".pages[0] run function builder_and_redstoner:actions/give_player_head with entity @s equipment.offhand.components."minecraft:writable_book_content".pages[0]
 
 execute if score #turn_type temp matches 1 run kill @e[type=minecraft:item, nbt={Item:{id:"minecraft:warped_fungus_on_a_stick",components:{"minecraft:custom_data":{item_type:"problem_details"}}}}]
-$execute if score #turn_type temp matches 1 as @a[team=!, scores={right_check=1..}, nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick", components: {"minecraft:custom_data": {item_type: "problem_details"}}}}] run function builder_and_redstoner:actions/open_redstone_problem_description_dialog with entity @n[tag=memory_entity, type=marker] data.selected_problems[$(current_selection)]
+$execute if score #turn_type temp matches 1 as @a[team=!, scores={right_check=1..}, nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick", components: {"minecraft:custom_data": {item_type: "problem_details"}}}}] run function builder_and_redstoner:actions/open_redstone_problem_description_dialog with storage builder_and_redstoner:memory data.selected_problems[$(current_selection)]
 execute if score #turn_type temp matches 1 as @a[team=!, scores={right_check=1..}, nbt={SelectedItem: {id: "minecraft:warped_fungus_on_a_stick", components: {"minecraft:custom_data": {item_type: "problem_details"}}}}] run scoreboard players reset @s right_check
 
 execute as @a[team=, sort=arbitrary] at @s run function builder_and_redstoner:actions/spectate_a_player with entity @s EnderItems[0].components."minecraft:profile"
